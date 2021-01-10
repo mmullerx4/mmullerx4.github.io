@@ -12,19 +12,21 @@ body {
     
 }
 h1 {
-    background-color: rgb(255, 0, 76);
+    background-color: rgb(144, 214, 39);
     border-radius: 5px;
     text-align: center;
     padding: 3%;
+    Color: rgb(12, 12, 12);
 }
 h2 {
     border-bottom: 1px solid black;
 }
 footer {
-    background-color:rgb(255, 0, 76);
+    background-color: rgb(144, 214, 39);
     border-radius: 5px;
     margin-left: -7%;
     text-align: center;
     padding: 2%;
-
+    margin-top: 5%;
+    color: rgb(12, 12, 12);
 }
