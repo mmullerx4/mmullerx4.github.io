@@ -26,7 +26,11 @@
 
   <footer>&copy; 2021 | Melinda S. Muller | Michigan | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
     <script>
-      var string = document.lastModified
+      function myFunction() {
+        var x = document.lastModified;
+        document.getElementById(output).innerHTML = x;
+      }
+      
     </script>
     <div id="output"></div>
   </footer>
