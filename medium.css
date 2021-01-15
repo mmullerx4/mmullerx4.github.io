@@ -1,0 +1,12 @@
+@media only screen and (min-width 32.5em) {
+    h1 {
+        background-color: rgb(144, 214, 39);
+        border-radius: 5px;
+        text-align: center;
+        padding: 3%;
+        Color: rgb(12, 12, 12);
+    }
+    h2 {
+        border-bottom: 1px solid black;
+    }
+}
