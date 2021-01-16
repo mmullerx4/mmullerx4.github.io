@@ -1,6 +1,7 @@
 header img {
     width: "200px";
     height: auto;
+    float: right;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 
 h1 {
     background-color: rgb(144, 214, 39);
-    
     text-align: center;
     padding: 3%;
     Color: rgb(12, 12, 12);
