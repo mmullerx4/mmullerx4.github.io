@@ -1,29 +1,30 @@
-img {
-    width: "300px";
-    height: "320px";
-    background-color: gray;
-    float: right;
+header img {
+    width: "200px";
+    height: auto;
 }
+
 body {
     background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
-    max-width: 40%;
-    
+    max-width: 40%;   
 }
+
 h1 {
     background-color: rgb(144, 214, 39);
-    border-radius: 5px;
+    
     text-align: center;
     padding: 3%;
     Color: rgb(12, 12, 12);
 }
+
 h2 {
     border-bottom: 1px solid black;
 }
+
 footer {
     background-color: rgb(144, 214, 39);
-    border-radius: 5px;
+    
     text-align: center;
     padding: 2%;
     margin-top: 5%;

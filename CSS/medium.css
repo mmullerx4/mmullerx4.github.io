@@ -1,12 +1,23 @@
 @media only screen and (min-width 32.5em) {
     h1 {
-        background-color: rgb(144, 214, 39);
-        border-radius: 5px;
-        text-align: center;
-        padding: 3%;
-        Color: rgb(12, 12, 12);
+        font-size: 2.5rem;
     }
+    
     h2 {
-        border-bottom: 1px solid black;
+        font-size: 1.5rem;
     }
-}
+
+    h1 {
+        border-radius: 10px;
+    }
+
+    footer {
+        border-radius: 10px;   
+    }
+
+    header img {
+        box-shadow:  0 0 30px #444;
+        float: right;
+        border-radius: 0 10px 0 0;
+    }
+    }
