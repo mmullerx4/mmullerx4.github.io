@@ -37,11 +37,13 @@ nav a:hover {background-color: #444;}
 
 main h1 {color: #17a8e4;}
 
-main figure img {width: 100%;}
-main figure {
-    width: 100%;
-    margin: 0;
+main {
+    padding: 1rem 2%;
 }
+main img {
+    width: 30%;
+    float: right;}
+    
 
 main figcaption {text-align: center; font-size: .8rem;}
 
