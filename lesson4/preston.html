@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- head section ---------------->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta name="description" content="Preston">
+  <title>Preston</title>
+<!-- STYLE SHEETS --------->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link href="https://coolors.co/507dbc-7b2d26-b8dbd9-042a2b-73d2de" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<!-- body section-------->
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+        <h1>Weather You Like or Not</h1>
+        <div>Motto</div>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+                     
+        </ul>
+            </ul>
+        </nav>
+    
+
+<!-- main section-------->
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="placeholder">Hero Image</div>
+        <div class="placeholder">Weather Summary</div>
+        <div class="placeholder">Five Day Forcast</div>
+        <div class="placeholder">Article</div>
+    </main>
+
+<!--- footer section ------------>
+    <footer>
+        &copy; Melinda Muller 2021
+        <p id="date"></p>
+    </footer>
+    
+    <script src="js/scripts.js">
+    var d=new Date();
+    document.getElementById("date").innerHTML=d.toDateString();</script>
+</body>
+
