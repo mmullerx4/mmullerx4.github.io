@@ -32,6 +32,10 @@ nav button{
     color: #fff;
 }
 
+.hide {
+display: none;
+}
+
 nav {
     background-color: #b8dbd9;
 }
