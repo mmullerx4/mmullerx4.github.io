@@ -1,6 +1,6 @@
 
 header {
-    background-color:rgb(2, 92, 43);
+    background-color:rgb(42, 44, 150);
     padding: 5%; 
     
     margin-left: 1%;
@@ -20,7 +20,7 @@ main h1 {
 }
 
 main h2 {
-    background-color: rgb(7, 206, 96);;
+    background-color: rgb(87, 90, 243);
     color: rgb(19, 18, 18);
     padding: 2%;
     border-radius: 3%;
@@ -53,7 +53,7 @@ p {
 }
 
 footer {
-    background-color:rgb(2, 92, 43);
+    background-color:rgb(42, 44, 150);
     padding: 6%;
     
     margin-left: .5%;
