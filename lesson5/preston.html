@@ -8,7 +8,7 @@
   <meta name="description" content="Preston">
   <title>Preston</title>
 <!-- STYLE SHEETS -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
@@ -45,19 +45,55 @@
 
 <!-- main section -->
     <main>
-        <h2>Preston Idaho</h2>
-        <div class="placeholder">Weather Summary
-            <!--
-            <div class="hero-ph">Hero Image</div>
+        <div id="message">Pancake breakfast every Saturday at 9a.m.</div>
+        <h1>Preston Idaho</h1>
+        <section class="forecast">5 Day Forcast
+            <div>
+                <h5>Monday</h5>
+                <img src="images/snow75.png" alt="snow">
+                <p>20&deg;</p>
+            </div>
+
+            <div>
+                <h5>Tuesday</h5>
+                <img src="images/rain75.png" alt="rain">
+                <p>40&deg;</p>
+            </div>
+            <div>
+                <h5>Wednesday</h5>
+                <img src="images/snow75.png" alt="snow">
+                <p>27&deg;</p>
+            </div>
+            <div>
+                <h5>Thursday</h5>
+                <img src="images/sun75.png" alt="sun">
+                <p>70&deg;</p>
+            </div>
+            <div>
+                <h5>Friday</h5>
+                <img src="images/snow75.png" alt="snow">
+                <p>30&deg;</p>
+            </div>
+
+
+
+        </section>
+        
+            <div class="hero-ph">
+                <img src="images/preston901.jpg" alt="preston">
+            
+            </div>
+        <!--
+            <div>
             <section class="summarybox">
                 <h3>Weather Summary</h3>
                 <p>x: v</p>
                 <p>x: v</p>
                 <p>x: v</p>
-            <section> -->
-        </div>
+            </section>
+        </div>-->
 
-        <div class="placeholder">Five Day Forcast</div>
+        
         <div class="placeholder">Article</div>
         <div class="placeholder">contact</div>
     </main>
@@ -69,6 +105,22 @@
     </footer>
     
     <script src="js/scripts.js"></script>
+    <script>
+        const today = new Date();
+        console.log(today);
+
+        const dayNumber = today.getDate();
+        console.log(dayNumber);
+
+        const element = document.getElementById("message");
+
+        if (dayNumber == 6) {
+            element.classList.add("showme");
+        }
+            else {
+                element.classList.add("hideme");
+            }
+    </script>
     
 </body>
 </html>
