@@ -17,9 +17,11 @@ nav ul.hide {display: block;}
 }
 
 /*----------Main--------------*/
+
 section.forecast {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    
 }
 section.forecast div {
     text-align: center;
@@ -27,3 +29,10 @@ section.forecast div {
     margin: 0;
     padding: 1rem 0;
 }
+#articleimg {
+    float: right;
+}
+ .contact {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
