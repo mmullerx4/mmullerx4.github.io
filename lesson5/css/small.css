@@ -91,10 +91,11 @@ h2 {
     position: relative;
 }
 
-.hero-ph {
+.heroimg {
     margin: 30px auto;
+   
     background-color: #eee;
-    border: 1px solid #333;
+   
     width: 100%;
     height: 250px;
 }
@@ -110,6 +111,10 @@ h2 {
     background-color: aquamarine;
     border: 1px solid gray;
     padding: 10px;
+}
+
+.article {
+   margin-top: 150px;
 }
 
 
