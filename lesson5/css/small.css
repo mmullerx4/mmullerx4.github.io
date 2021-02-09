@@ -102,9 +102,9 @@ h2 {
 
 .summarybox {
     position: absolute;
-    top: 500px;
-    left: 30px;
-    background-color: aquamarine;
+    top: 550px;
+    left: 350px;
+    background-color: plum;
     border: 1px solid gray;
     padding: 10px;
 }
