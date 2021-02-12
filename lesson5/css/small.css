@@ -96,6 +96,7 @@ div .heroimg {
 
 .heroimg img {
     max-width: 965px;
+    
 }
 .placeholder {
     border: 1px solid black;
@@ -103,8 +104,8 @@ div .heroimg {
 
 .summarybox {
     position: absolute;
-    top: 550px;
-    left: 350px;
+    top: 10px;
+    left: 10px;
     background-color: #eee;
     border: 3px solid purple;
     padding: 10px;
