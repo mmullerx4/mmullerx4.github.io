@@ -88,7 +88,8 @@ h2 {
 
 
 
-.heroimg {
+div .heroimg {
+    position: reletive;
     margin: 30px auto;
     background-color: #eee; 
 }
@@ -104,8 +105,8 @@ h2 {
     position: absolute;
     top: 550px;
     left: 350px;
-    background-color: plum;
-    border: 3px solid gray;
+    background-color: #eee;
+    border: 3px solid purple;
     padding: 10px;
 }
 
