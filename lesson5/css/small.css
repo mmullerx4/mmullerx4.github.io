@@ -70,17 +70,21 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main {
-    padding: 1% 2%;
+    
     min-height: 10rem;
     background-color: #eee;
     color: black;  
 }
 
-section.forecast {display: none;}
+section.forecast {
+    display: none;
+    
+}
 
 div#message { background-color: plum;}
 div.showme {display: block;}
 div.hideme {display: none;}
+
 
 h2 {
     text-align: left;
@@ -97,9 +101,6 @@ div .heroimg {
 .heroimg img {
     max-width: 965px;
     
-}
-.placeholder {
-    border: 1px solid black;
 }
 
 .summarybox {
