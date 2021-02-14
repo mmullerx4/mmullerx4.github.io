@@ -98,11 +98,11 @@ div .heroimg {
     background-color: #eee; 
 }
 
-.heroimg img {
-    max-width: 965px;
+picture.photo1{
+    display: block;
+    
     
 }
-
 .summarybox {
     position: absolute;
     top: 30rem;

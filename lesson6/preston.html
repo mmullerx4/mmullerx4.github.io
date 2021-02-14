@@ -82,12 +82,18 @@
         </section>
         
             <div class="heroimg">
-                <img src="images/felixCrop1000.jpg" alt="preston">
+                <picture class="photo1">
+                        <source media="(max-width: 200px") srcset="images/franklin400.jpg">
+                        <source media="(max-width: 800px") srcset="images/franklin800.jpg"> 
+                         
+                        <img src="images/franklin1200.jpg" alt="preston">
+            </picture>
                 <section class="summarybox">
-                    <h3>Weather Summary</h3>
-                    <p>x: v</p>
-                    <p>x: v</p>
-                    <p>x: v</p>
+                    <span>
+                    <p>Temperature:<span id="temp">25</span>&deg;</p>
+                    <p>Wind speed:<span id="temp">20</span>mph</p>
+                    <p id="chill">Wind chill:<span id="message"></span></p>
+                    </span>
                 </section>
             </div>
         
@@ -157,6 +163,11 @@
             else {
                 element.classList.add("hideme");
             }
+    </script>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({google: {families: ['Roboto']}});
     </script>
     
 </body>
