@@ -13,7 +13,7 @@ winchill = Math.round(windchill);
 //console.log(windchill);
 
 if(tempNumber<=50 && speedNumber > 3) {
-    document.getElementById("chill").textContent = "Wind chill is " +windchill+"\xBOF";
+    document.getElementById("chill").textContent = "Wind chill is " +windchill+"\xB0F";
 
 } else {
     document.getElementById("chill").textContent = "No wind chill today";
