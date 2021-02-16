@@ -2,7 +2,7 @@
 
     main, footer {
         max-width: 64rem;
-        margin:auto;
+        margin: auto;
     }
 
     nav button {display: none;}

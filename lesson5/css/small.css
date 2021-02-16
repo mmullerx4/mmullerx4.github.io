@@ -94,30 +94,28 @@ h2 {
 
 
 
-div .heroimg {
+div.heroimg {
     position: relative;
     margin: 30px auto;
     background-color: #eee; 
 }
 
 .heroimg img {
-    max-width: 965px;
+    max-width: 100%;
     
 }
 
 .summarybox {
     position: absolute;
-    top: 30rem;
-    left: 20rem;
+    top: 2rem;
+    left: 2rem;
     background-color: rgba(6, 92, 71, 0.75);
     border: 3px solid rgb(39, 38, 39);
     padding: 10px;
     color: whitesmoke;
 }
 
-.article {
-   margin-top: 90px;
-}
+
 
 #contact {
     margin-top: 100px;
