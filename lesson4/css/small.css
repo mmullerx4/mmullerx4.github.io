@@ -79,6 +79,9 @@ main {
 h2 {
     text-align: center;
 }
+.forecast {
+    display: none;
+}
 
 .herocontainer{
     margin: 30px auto;
