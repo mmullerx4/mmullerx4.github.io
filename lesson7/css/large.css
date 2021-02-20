@@ -1,27 +1,29 @@
-/* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
+    main, footer {
         max-width: 64rem;
         margin:auto;
     }
 
-/*----------- BODY --------------*/
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul li {margin-left: 2%;}
+
+    nav ul li {float: left;}
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
+
+   
+    main footer {
+        max-width: 80%;
+    }
 
 
 
-/*----------- HEADER --------------*/
-
-
-
-/*----------- NAVIGATION --------------*/
-
-
-
-/*----------- MAIN --------------*/
-
-
-
-/*----------- FOOTER --------------*/
-    
-} /* end of media query */
+    } /*end large */

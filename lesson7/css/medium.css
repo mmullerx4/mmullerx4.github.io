@@ -1,28 +1,51 @@
-/* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 35rem) {
 
-
-/*----------- BODY --------------*/
-
-
-
-/*----------- HEADER --------------*/
-header img {width: auto;}
+    /*----------- HEADER --------------*/
+header img {width: 100px;}
 header h1 {font-size: 2rem;}
 header h2 {font-size: 1.5rem;}
 
 
-/*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {float: left;}
+/*------navigation-----------*/
+nav ul {margin-left: 2%;}
+nav ul li {float: left;}
+nav ul li a{padding: .5rem 1rem;}
 
-    nav ul li a{padding: .5rem 1rem;}
+nav button {display: none;}
 
+nav ul.hide {display: block;}
+}
 
-/*----------- MAIN --------------*/
+/*----------Main--------------*/
 
-
-
-/*----------- FOOTER --------------*/
+section.forecast {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1rem;
+    margin-left: -1rem;
     
-} /* end of media query */
+}
+section.forecast div {
+    text-align: center;
+    border: 1px solid #aaa;
+    margin: 0;
+    
+}
+
+section.forecast img {
+    max-height: 2rem;
+}
+#articleimg {
+    float: right;
+    margin-top: -45px;
+}
+ .contactinfo {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     
+ }
+
+ #map {
+     margin-top: -100px;
+     margin-bottom: 20px;
+ }

@@ -21,9 +21,7 @@ nav ul.hide {display: block;}
 section.forecast {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 1rem;
-    margin-left: -1rem;
-    
+      
 }
 section.forecast div {
     text-align: center;
@@ -37,7 +35,9 @@ section.forecast img {
 }
 #articleimg {
     float: right;
-    margin-top: -45px;
+    margin-top: 3rem;
+    border: 1px solid silver;
+
 }
  .contactinfo {
      display: grid;
@@ -46,6 +46,8 @@ section.forecast img {
  }
 
  #map {
-     margin-top: -100px;
-     margin-bottom: 20px;
- }
+    margin-bottom: 1rem;
+    border: 1px solid silver;
+}
+
+}/*end medium*/
