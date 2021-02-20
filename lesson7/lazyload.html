@@ -17,26 +17,61 @@
 </head>
 
 <!-- body section-------->
-<header>
+<body>
+  <header>
+    <div class="header">
+        <img src="logo.png" alt="logo">
+        <h1>Weather You Like or Not</h1>
+        <div>It's Coming Your Way</div>
+    </div>
+</header>
+
+<nav class="clearfix">
+    <div class="nav">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>
+</nav>
 <h1>
 Lazy Loading
 </h1>
-</header>
 
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+<main>
+<picture>
+<img src='images/placeholder.png' data-src='images/umb300.jpg' alt='snow on an umbrella'>
+</picture>
 
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+<picture>
+<img src='images/placeholder.png' data-src='images/mttop300.jpg' alt='mountain top'>
+</picture>
 
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+<picture>
+<img src='images/placeholder.png' data-src='images/mthaze300.jpg' alt='hazy mountain view'>
+</picture>
 
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+<picture>
+<img src='images/placeholder.png' data-src='images/lightin300.jpg' alt='lightening in field'>
+</picture>
 
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>
+<picture>
+<img src='images/placeholder.png' data-src='images/hose300.jpg' alt='wather hose'>
+</picture>
+</main>
 
 <!--- footer section ------------>
-    <footer>
-        &copy; Melinda Muller 2021
-    </footer>
+<footer>
+  &copy; Melinda Muller 2021
+  <p id="date"></p>
+</footer>
+
+<script src="js/scripts.js"></script>
 
     <script src="app.js" defer></script>
 </body>
