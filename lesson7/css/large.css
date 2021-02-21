@@ -19,7 +19,11 @@
         padding: .6rem 1rem;
     }
 
-   
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+    }
+    
     main footer {
         max-width: 80%;
     }

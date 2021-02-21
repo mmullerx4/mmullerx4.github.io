@@ -49,3 +49,11 @@ section.forecast img {
      margin-top: -100px;
      margin-bottom: 20px;
  }
+
+ /*------gallery-------*/
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
+
+} /*-----end medium------*/
