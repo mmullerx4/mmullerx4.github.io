@@ -27,6 +27,11 @@
     .gallery img a:hover {
         box-shadow: 10px 10px 5 px rgb(114, 59, 177)
     }
+    .lazy {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 
     main footer {
         max-width: 80%;
