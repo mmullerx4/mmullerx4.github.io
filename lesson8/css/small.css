@@ -25,10 +25,11 @@ th {
   padding: 7px;
 }
 
-td {
+tr {
   background-color:  #e7f0ed;
   padding: 5px;
 }
+
 
 tr:nth-child(odd) {
   background-color: #e7ffed;
