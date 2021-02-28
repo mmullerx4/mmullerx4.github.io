@@ -1,49 +1,152 @@
-table {
-  margin: auto;
-  margin-top: 8rem;
-  font-family: Ubuntu, sans-serif;
-  box-shadow: 5px 5px 10px #628ca6;
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.wrap {
+    word-wrap: break-word;
+}
+/*----------- BODY --------------*/
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
+/*-----header-----*/
+header {
+    padding: 1rem 2%;
+    background-color: #042a2b;
+    color:whitesmoke;
 }
-.mainh {
-  background-color: #7fb9c2;
-  color:black;
-  text-align: center;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
+header img {float: left; margin-right: 20px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+
+.header, .nav {
+   
+    max-width: 64rem;
+    margin: auto;
 }
 
-th {
-  background-color: #628ca6;
-  color: #eee;
-  padding: 7px;
+/*-----Navigation-----*/
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
 }
 
-tr {
-  background-color:  #e7f0ed;
-  padding: 5px;
+.hide {
+display: none;
+}
+
+nav {
+    background-color: #b8dbd9;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
 }
 
 
-tr:nth-child(odd) {
-  background-color: #e7ffed;
+
+nav ul li a:hover { background-color: #aaa; color: #333;}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    
+    min-height: 10rem;
+    background-color: #eee;
+    color: black;  
 }
 
-.foot {
-  background-color: #7fb9c2;
-  font-size: 10px;
+section.forecast {
+    display: none;
+    
 }
-#hilite {
-  background-color: #628ca6;
-}
-#bfriday {
-  font-style: italic;
+
+div#message { background-color: plum;}
+div.showme {display: block;}
+div.hideme {display: none;}
+
+
+h2 {
+    text-align: left;
 }
 
 
+
+div .heroimg {
+    position: relative;
+    margin: 30px auto;
+    background-color: #eee; 
+}
+
+.heroimg img {
+    display: block;
+    width: 100%;
+    
+}
+.summarybox {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+    background-color: rgba(6, 92, 71, 0.75);
+    border: 3px solid rgb(39, 38, 39);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+.article {
+   margin-top: 90px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+/*--------gallery page---------*/
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #042a2b;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #eee;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
