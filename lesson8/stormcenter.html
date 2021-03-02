@@ -44,26 +44,45 @@
         </div>
     </nav>
     <!-- main section -->
-    
+
     <fieldset>
         <legend>Applicant Information</legend>
         <label class="top">First Name* <input type="text" name="fname" pattern="[a-z]{5}" required></label>
         <label class="top">Last Name* <input type="text" name="lname" pattern="[a-z]{5}" required></label>
         <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
         <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Storm Information</legend>
         <label class="top">Zip Code* <input type="number" name="Zip code" placeholder="zip code" required></label>
         <label class="top">Storm Date <input type="date" name="date" placeholder="date"></label>
-        <label class="top">Storm Type <input type="list" name="list" placeholder=""></label>
+        <label class="top">Storm Type <input type="list" list="stormtype" name="list"></label>
+
+        <datalist id="stormtype">
+
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+        </datalist>
+
+        <label class="top">Storm Severity<input type="range" min="1" max="10" name="range"></label>
+
+        <label for="town">Choose a town:
+
+            <select name="town">
+
+                <option value="Region">Select Region</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select>
+        </label>
         
-        <input list="datalist_id">
-
-<datalist id="stormtype">
-    <option value="">Please Select &#9662;</option>
-  <option value="Flash Flood">
-  <option value="Hail">
-  <option value="Hurricane">
-  <option value="Thunderstorm">
-  <option value="Tornado">
-</datalist>
-
     </fieldset>
+
+</body>
+
+</html>
