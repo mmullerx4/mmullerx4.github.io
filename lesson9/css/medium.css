@@ -1,0 +1,59 @@
+@media only screen and (min-width: 35rem) {
+
+    /*----------- HEADER --------------*/
+header img {width: 100px;}
+header h1 {font-size: 2rem;}
+header h2 {font-size: 1.5rem;}
+
+
+/*------navigation-----------*/
+nav ul {margin-left: 2%;}
+nav ul li {float: left;}
+nav ul li a{padding: .5rem 1rem;}
+
+nav button {display: none;}
+
+nav ul.hide {display: block;}
+}
+
+/*----------Main--------------*/
+
+section.forecast {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1rem;
+    margin-left: -1rem;
+    
+}
+section.forecast div {
+    text-align: center;
+    border: 1px solid #aaa;
+    margin: 0;
+    
+}
+
+section.forecast img {
+    max-height: 2rem;
+}
+#articleimg {
+    float: right;
+    margin-top: -45px;
+}
+ .contactinfo {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     
+ }
+
+ #map {
+     margin-top: -100px;
+     margin-bottom: 20px;
+ }
+
+ /*------gallery-------*/
+ .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+} /*-----end medium------*/

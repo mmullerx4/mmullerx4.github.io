@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64rem) {
+
+    main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul li {margin-left: 2%;}
+
+    nav ul li {float: left;}
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1 fr;
+    }
+
+    .gallery img a:hover {
+        box-shadow: 10px 10px 5 px rgb(114, 59, 177)
+    }
+    .lazy {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+   
+
+    main footer {
+        max-width: 80%;
+    }
+
+
+
+    } /*end large */
