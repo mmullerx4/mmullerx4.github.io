@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
 
-    console.table(jsonObject); // temporary checking for valid response and data parsing
+    
     const prophets = jsonObject['prophets'];
     for (let i = 0; i < prophets.length; i++) {
 
@@ -26,3 +26,9 @@ fetch(requestURL)
       image.setAttribute('src', prophets[i].imageurl);
     }
   });
+
+  let pimg = document.createElement('img');
+
+  //use template literals
+  pimg.style.boxShadow = '0 0 30px #333';
+  pimg.style.width = '200px';

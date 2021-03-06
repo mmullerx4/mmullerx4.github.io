@@ -1,13 +1,23 @@
 
 div.cards {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    background-color: brown;
+    
 }
 
-
-
-
-
+h1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: brown;
+}
+main section {
+    margin-left: 25px;
+}
+section img {
+    width: ;
+}
 
 
 
@@ -33,7 +43,7 @@ div.cards {
     div.cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        background-color: brown;
+        
         
     }
 
