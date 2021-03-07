@@ -132,7 +132,11 @@ img {
 
 /*--------gallery page---------*/
 
-
+/*-------home--------*/
+article {
+    display: block;
+      
+  }
 
 /*----------- FOOTER --------------*/
 footer {

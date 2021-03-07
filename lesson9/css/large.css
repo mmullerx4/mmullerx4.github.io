@@ -18,21 +18,18 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
     }
-
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1 fr;
-    }
-
-    .gallery img a:hover {
+/*-----gallery------*/
         box-shadow: 10px 10px 5 px rgb(114, 59, 177)
     }
     .lazy {
         display: grid;
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr; 
     }
-   
+   /*--------home-------*/
+   article {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
 
     main footer {
         max-width: 80%;

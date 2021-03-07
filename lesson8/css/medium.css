@@ -55,5 +55,18 @@ section.forecast img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+/*------home-------*/
+.homeimgs {
+display: grid;
+grid-template-columns: 1fr 1fr;	
+}
+article:nth-child(odd) .homeimgs img {
+	grid-column: 2;
+}
+
+article:nth-child(odd) .data {
+	grid-column: 1;
+	grid-row: 1;
+}
 
 } /*-----end medium------*/
