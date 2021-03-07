@@ -133,8 +133,17 @@ img {
 /*--------gallery page---------*/
 
 /*-------home--------*/
-article {
-    display: block;
+h2 {text-align:center;}
+
+section {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+}
+img {width: 100%; height: auto;padding:0;}
+  .data {background-color:#000; color:#fff;}
+  p {padding: .75rem;}
       
   }
 
