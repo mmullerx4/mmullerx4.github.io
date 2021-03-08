@@ -106,8 +106,8 @@ div .heroimg {
 }
 .summarybox {
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 20rem;
+    left: 20rem;
     background-color: rgba(6, 92, 71, 0.75);
     border: 3px solid rgb(39, 38, 39);
     padding: 10px;

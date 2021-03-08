@@ -29,4 +29,6 @@ document.getElementById("date").innerHTML=weekList[date.getDay()]  + ", " + date
                 families: ['Roboto']
             }
         });
+
+        const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     
