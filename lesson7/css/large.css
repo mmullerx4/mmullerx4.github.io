@@ -21,12 +21,15 @@
 
     .gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1 fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+
     }
 
-    .gallery img a:hover {
+    .gallery img{
         box-shadow: 10px 10px 5 px rgb(114, 59, 177)
     }
+
     .lazy {
         display: grid;
         grid-template-columns: 1fr;
