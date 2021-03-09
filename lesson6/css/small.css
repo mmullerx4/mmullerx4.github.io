@@ -94,20 +94,18 @@ h2 {
 
 
 
-div .heroimg {
+.heroimg {
     position: relative;
     margin: 30px auto;
     background-color: #eee; 
+    width: 100%;
 }
 
-.heroimg img {
-    width: 100%;
-    
-}
+
 .summarybox {
     position: absolute;
-    top: 20rem;
-    left: 20rem;
+    top: 10px;
+    left: 10px;
     background-color: rgba(6, 92, 71, 0.75);
     border: 3px solid rgb(39, 38, 39);
     padding: 10px;
