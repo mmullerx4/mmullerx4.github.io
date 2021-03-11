@@ -134,6 +134,10 @@ img {
 
 .gallery img {
     box-shadow: 5px 5px 10px rgb(76, 75, 75);
+    width: 300px;
+}
+figure {
+    margin: 1em;
 }
 
 
