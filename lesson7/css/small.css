@@ -132,14 +132,16 @@ img {
 }
 
 /*--------gallery page---------*/
-
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
 .gallery img {
     box-shadow: 5px 5px 10px rgb(76, 75, 75);
     width: 300px;
 }
-figure {
-    margin-left: 0;
-}
+
 
 /*----------- FOOTER --------------*/
 footer {

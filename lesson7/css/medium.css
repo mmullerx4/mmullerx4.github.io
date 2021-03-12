@@ -55,5 +55,8 @@ section.forecast img {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+figure {
+    margin: 1em;
+}
 
 } /*-----end medium------*/
