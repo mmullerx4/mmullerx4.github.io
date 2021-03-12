@@ -81,6 +81,7 @@ section.forecast {
     
 }
 
+}
 div#message { background-color: plum;}
 div.showme {display: block;}
 div.hideme {display: none;}
@@ -137,9 +138,8 @@ img {
     width: 300px;
 }
 figure {
-    margin: 1em;
+    margin-left: 0;
 }
-
 
 /*----------- FOOTER --------------*/
 footer {
