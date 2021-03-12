@@ -139,8 +139,9 @@ img {
 }
 .gallery img {
     box-shadow: 5px 5px 10px rgb(76, 75, 75);
-    width: 300px;
+    width: 30em;
 }
+
 
 
 /*----------- FOOTER --------------*/
