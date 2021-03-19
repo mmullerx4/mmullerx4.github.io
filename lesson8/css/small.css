@@ -141,7 +141,7 @@ form label.top, form div {
     font-size: 1rem;
 }
 .submit {
-    margin-top: 1rem;
+    margin: 1rem auto;
     padding: .8rem;
 }
 

@@ -18,6 +18,7 @@ header {
     padding: 1rem 2%;
     background-color: #042a2b;
     color:whitesmoke;
+    
 }
 header img {float: left; margin-right: 20px; width: 50px;}
 header h1 {margin: 0; font-size: 1.3rem;}
@@ -27,6 +28,7 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
    
     max-width: 64rem;
     margin: auto;
+
 }
 
 /*-----Navigation-----*/
@@ -75,13 +77,18 @@ main {
     background-color: #eee;
     color: black;  
 }
+h1 {
+   max-width: 64rem;
+   text-align: left;
+   margin: 1em auto;
+}
 
 section.forecast {
     display: none;
     
 }
 
-}
+
 div#message { background-color: plum;}
 div.showme {display: block;}
 div.hideme {display: none;}
@@ -139,7 +146,10 @@ img {
 }
 .gallery img {
     box-shadow: 5px 5px 10px rgb(76, 75, 75);
-    width: 30em;
+    width: 20em;
+}
+figure {
+    margin-left: 2em;
 }
 
 
