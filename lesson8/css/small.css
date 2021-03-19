@@ -133,6 +133,20 @@ img {
 /*--------gallery page---------*/
 
 
+/*-------storm center page-------*/
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #e0421f;
+    font-size: 1rem;
+}
+.submit {
+    margin-top: 1rem;
+    padding: .8rem;
+}
+
+
+
 
 /*----------- FOOTER --------------*/
 footer {
