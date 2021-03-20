@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <meta name="description" content="Preston">
+    <meta name="description" content="Storm Center">
     <title>Storm Center</title>
     <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="../css/normalize.css">
@@ -30,11 +30,12 @@
         </div>
     </header>
 
+<!-- navigation section -->
     <nav class="clearfix">
         <div class="nav">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -43,12 +44,16 @@
             </ul>
         </div>
     </nav>
-    <!-- main section -->
 
+    <!-- main section -->
+    <main>
+        <h1>Community Storm Network</h1>
+        <h2>Report Storms</h2>
+<form method="get" action="thanks.html">
     <fieldset>
         <legend>Applicant Information</legend>
-        <label class="top">First Name* <input type="text" name="fname" pattern="[a-z]{5}" required></label>
-        <label class="top">Last Name* <input type="text" name="lname" pattern="[a-z]{5}" required></label>
+        <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>
         <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
         <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
     </fieldset>
@@ -82,6 +87,19 @@
         </label>
         
     </fieldset>
+    <input type="submit" class="submit">
+    </form>
+</main>
+<!-- footer -->
+<footer>
+    &copy; Melinda Muller 2021
+    <p id="date"></p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/fontload.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
 
 </body>
 
