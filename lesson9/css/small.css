@@ -131,6 +131,18 @@ img {
 }
 
 /*--------gallery page---------*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.gallery img {
+    box-shadow: 5px 5px 10px rgb(76, 75, 75);
+    width: 20em;
+}
+figure {
+    margin-left: 2em;
+}
 
 /*-------home--------*/
 h2 {text-align:center;}
