@@ -131,7 +131,18 @@ img {
 }
 
 /*--------gallery page---------*/
-
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.gallery img {
+    box-shadow: 5px 5px 10px rgb(76, 75, 75);
+    width: 20em;
+}
+figure {
+    margin-left: 2em;
+}
 
 /*-------storm center page-------*/
 form label.top, form div {
@@ -139,6 +150,9 @@ form label.top, form div {
     padding-top: 1rem;
     color: #e0421f;
     font-size: 1rem;
+}
+input, select {
+    display: block;
 }
 .submit {
     margin: 1rem auto;
