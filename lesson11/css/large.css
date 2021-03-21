@@ -19,8 +19,19 @@
         padding: .6rem 1rem;
     }
 /*-----gallery------*/
-        box-shadow: 10px 10px 5 px rgb(114, 59, 177)
-    }
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin: 0;
+    
+}
+
+.gallery img{
+    box-shadow: 10px 10px 5 px rgb(114, 59, 177)
+    
+}
+/*-------lazy------*/
     .lazy {
         display: grid;
         grid-template-columns: 1fr; 

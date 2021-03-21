@@ -53,7 +53,16 @@ section.forecast img {
  /*------gallery-------*/
  .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery img {
+    width: 300px;
+}
+
+figure {
+    margin: 1em;
+
 }
 /*------home--------*/
 article {
