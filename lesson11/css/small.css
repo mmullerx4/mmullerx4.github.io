@@ -132,6 +132,22 @@ img {
 
 /*--------gallery page---------*/
 
+/*-------storm center page-------*/
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #e0421f;
+    font-size: 1rem;
+}
+input, select {
+    display: block;
+}
+
+.submit {
+    margin: 1rem;
+   
+    padding: .8rem;
+}
 /*-------home--------*/
 h2 {text-align:center;}
 
