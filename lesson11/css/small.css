@@ -154,7 +154,7 @@ input, select {
 /*-------home--------*/
 h2 {text-align:center;}
 
-section {
+.homeimgs {
 	max-width: 600px;
   margin: .5rem auto;
 	border:1px solid #bbb;
