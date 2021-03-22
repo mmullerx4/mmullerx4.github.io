@@ -77,10 +77,12 @@ main {
 }
 
 section.forecast {
-    display: none;
-    
+    display: none;  
 }
 
+#5day {
+    display: none;
+}
 div#message { background-color: plum;}
 div.showme {display: block;}
 div.hideme {display: none;}
@@ -99,10 +101,9 @@ div .heroimg {
 }
 
 .heroimg img {
-    display: block;
-    width: 100%;
-    
+    width: 100%;  
 }
+
 .summarybox {
     position: absolute;
     top: 30rem;
@@ -122,9 +123,7 @@ img {
     transition: filter 0.5s;
   }
   
-.article {
-   margin-top: 90px;
-}
+
 
 #contact {
     margin-top: 100px;
