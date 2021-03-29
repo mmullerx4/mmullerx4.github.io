@@ -17,12 +17,16 @@ fetch(requestURL)
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let image = document.createElement('img');
+      let div = document.createElement('div');
       h2.textContent = towndata[i].name + ' ' + towndata[i].lastname;
 
+      card.appendChild(div);
       card.appendChild(h2);
       card.appendChild(image);
+      
       document.querySelector('div.cards').appendChild(card);
 
       image.setAttribute('src', towndata[i].imageurl);
+      div.setAttribute('class', 't-data')
     }
   });
