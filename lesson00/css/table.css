@@ -1,0 +1,49 @@
+table {
+  margin: auto;
+  margin-top: 8rem;
+  font-family: Ubuntu, sans-serif;
+  box-shadow: 5px 5px 10px #628ca6;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.mainh {
+  background-color: #7fb9c2;
+  color:black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+th {
+  background-color: #628ca6;
+  color: #eee;
+  padding: 7px;
+}
+
+tr {
+  background-color:  #e7f0ed;
+  padding: 5px;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #e7ffed;
+}
+
+.foot {
+  background-color: #7fb9c2;
+  font-size: 10px;
+}
+#hilite {
+  background-color: #628ca6;
+}
+#bfriday {
+  font-style: italic;
+}
+
+

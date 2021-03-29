@@ -1,0 +1,176 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.wrap {
+    word-wrap: break-word;
+}
+/*----------- BODY --------------*/
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----header-----*/
+header {
+    padding: 1rem 2%;
+    background-color: #042a2b;
+    color:whitesmoke;
+}
+header img {float: left; margin-right: 20px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+
+.header, .nav {
+   
+    max-width: 64rem;
+    margin: auto;
+}
+
+/*-----Navigation-----*/
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.hide {
+display: none;
+}
+
+nav {
+    background-color: #b8dbd9;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+
+nav ul li a:hover { background-color: #aaa; color: #333;}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    
+    min-height: 10rem;
+    background-color: #eee;
+    color: black;  
+}
+
+section.forecast {
+    display: none;  
+}
+
+#5day {
+    display: none;
+}
+div#message { background-color: plum;}
+div.showme {display: block;}
+div.hideme {display: none;}
+
+
+h2 {
+    text-align: left;
+}
+
+
+
+div .heroimg {
+    position: relative;
+    margin: 30px auto;
+    background-color: #eee; 
+}
+
+.heroimg img {
+    width: 100%;  
+}
+
+.summarybox {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+    background-color: rgba(6, 92, 71, 0.75);
+    border: 3px solid rgb(39, 38, 39);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+
+
+#contact {
+    margin-top: 100px;
+}
+
+/*--------gallery page---------*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.gallery img {
+    box-shadow: 5px 5px 10px rgb(76, 75, 75);
+    width: 20em;
+}
+figure {
+    margin-left: 2em;
+}
+
+/*-------home--------*/
+h2 {text-align:center;}
+
+section {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+}
+img {width: 100%; height: auto;padding:0;}
+  .data {background-color:#000; color:#fff;}
+  p {padding: .75rem;}
+      
+  
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #042a2b;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #eee;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
