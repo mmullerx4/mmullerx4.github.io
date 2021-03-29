@@ -27,7 +27,7 @@
     
 }
 
-.gallery img{
+.gallery img {
     box-shadow: 10px 10px 5 px rgb(114, 59, 177)
     
 }
@@ -39,7 +39,14 @@
         grid-template-columns: 1fr; 
     }
 /*--------home-------*/
-
+div.hometowns {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.hometowns section {
+display: block;
+padding: 1rem;
+  }
   
   
 
