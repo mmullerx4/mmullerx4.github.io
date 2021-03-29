@@ -122,8 +122,6 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
-  
-
 
 #contact {
     margin-top: 100px;
@@ -144,15 +142,15 @@ figure {
 }
 
 /*-------home--------*/
-h2 {text-align:center;}
+.h2home {text-align:center;}
 
-section {
+.homesection {
 	max-width: 600px;
   margin: .5rem auto;
 	border:1px solid #bbb;
   background-color: #eee;
 }
-img {width: 100%; height: auto;padding:0;}
+.homeimg {width: 100%; height: auto;padding:0;}
   .data {background-color:#000; color:#fff;}
   p {padding: .75rem;}
       

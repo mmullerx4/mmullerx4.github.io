@@ -121,14 +121,6 @@ div .heroimg {
     color: whitesmoke;
 }
 
-img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
   
 .article {
    margin-top: 90px;
@@ -139,6 +131,16 @@ img {
 }
 
 /*--------gallery page---------*/
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
