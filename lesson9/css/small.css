@@ -68,7 +68,7 @@ nav ul li.active a {
     background-color: #000;
     color: #fff;
 }
-/*----------- MAIN --------------*/
+/*----------- Preston MAIN --------------*/
 main {
     
     min-height: 10rem;
@@ -123,9 +123,7 @@ img {
     transition: filter 0.5s;
   }
 
-#contact {
-    margin-top: 100px;
-}
+
 
 /*--------gallery page---------*/
 .gallery {
@@ -146,8 +144,29 @@ div.hometowns {
     display: grid;
     grid-template-columns: 1fr;
 }
-  
-
+.homecard {
+    border: 1px solid #042a2b;
+    border-radius: 30px;
+    margin: 10px;
+    
+}
+    .t-title {
+        font-family: 'passion One', cursive;
+        color: #042a2b;
+}
+.homeh3 {
+    font-family: 'indie flower', cursive;
+    font-size: 12px;
+}
+ /*-----------subFOOTER --------------*/ 
+#contact {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#map {
+    border: 50px silver;
+    margin: 10px;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #042a2b;

@@ -67,10 +67,10 @@ figure {
 /*------home--------*/
 div.hometowns {
     display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
   }
   
-  .hometowns:nth-child(even) img {
+  .hometowns:nth-child(odd) img {
       grid-column: 2;
   }
   
