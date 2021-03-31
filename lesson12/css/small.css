@@ -1,0 +1,38 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.wrap {
+    word-wrap: break-word;
+}
+
+/*------Body--------*/
+body {
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+background-color: #c4ced5;
+}
+
+header {
+    background-color: #3B4A54;
+    color: #FFFFFF;
+    padding: 1.5rem 10%;
+}
+nav {
+    margin-top: -20px;
+    background-color: #889CAA;
+}
+img.border {
+    
+}
+
+
+/*-----footer-----*/
+footer {
+    background-color: #3B4A54;
+    color: #FFFFFF;
+    padding: .75rem 10%;
+}
