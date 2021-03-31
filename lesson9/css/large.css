@@ -47,6 +47,13 @@ div.hometowns {
 display: block;
 padding: 1rem;
   }
+  .homecard {
+    border: 1px solid #042a2b;
+    border-radius: 30px;
+    margin: 10px;
+    
+    
+}
   
   
 

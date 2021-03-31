@@ -148,19 +148,27 @@ div.hometowns {
     border: 1px solid #042a2b;
     border-radius: 30px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
     .t-title {
-        font-family: 'passion One', cursive;
-        color: #042a2b;
+        font-family: cursive;
+        color: black;
+        background-color: #b8dbd9;
+        border-radius: 10px;
+        padding: 10px;
 }
 .homeh3 {
-    font-family: 'indie flower', cursive;
-    font-size: 12px;
+    font-family: cursive;
+    font-size: 10px;
 }
- /*-----------subFOOTER --------------*/ 
+.homep {
+    margin: 10px;
+}
+ /*-----------preFOOTER --------------*/ 
 #contact {
-    margin-top: 100px;
+    margin-top: 5rem;
     margin-left: 50px;
 }
 #map {
