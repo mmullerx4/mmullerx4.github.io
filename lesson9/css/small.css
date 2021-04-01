@@ -130,11 +130,11 @@ div .heroimg {
 figure {
     margin-left: 2em;
 }
-.galleryimg[data-src] {
+.prettyimg[data-src] {
     filter: blur(0.2em);
   }
   
-.galleryimg {
+.prettyimg {
     filter: blur(0em);
     transition: filter 0.5s;
   }
