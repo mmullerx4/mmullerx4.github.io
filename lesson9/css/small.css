@@ -176,7 +176,7 @@ div.hometowns {
 }
 #map {
     border: 50px silver;
-    margin: 10px;
+    margin: 0;
 }
 /*----------- FOOTER --------------*/
 footer {
