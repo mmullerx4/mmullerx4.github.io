@@ -7,8 +7,9 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
 
-    
-    const towndata = jsonObject['towns'];
+    const allTowns = jsonObject['towns'];
+    const towndata = allTowns.filter(item => item.name === "Fish Haven" || item.name === "Preston" ||
+    item.name === "Soda Springs");
     console.log(towndata);
     for (let i = 0; i < towndata.length; i++) {
 
@@ -35,15 +36,15 @@ fetch(requestURL)
 
       //Attributes
       homecard.setAttribute('class', 'homecard');
-      towncontent.setAttribute('class', towncontent);
-      tTitle.setAttribute('class', tTitle);
-      tData.setAttribute('class', tData);
-      home2.setAttribute('class', home2);
-      home3.setAttribute('class', home3);
-      p1.setAttribute('class', p1);
-      p2.setAttribute('class', p2);
-      p3.setAttribute('class', p3);
-      image.setAttribute('src', towndata[i].imageurl);
+      towncontent.setAttribute('class', 'towncontent');
+      tTitle.setAttribute('class', 't-title');
+      tData.setAttribute('class', 't-data');
+      homeh2.setAttribute('class', 'homeh2');
+      homeh3.setAttribute('class', 'homeh3');
+      p1.setAttribute('class', 'p1');
+      p2.setAttribute('class', 'p2');
+      p3.setAttribute('class', 'p3');
+      image.setAttribute('src', 'images/' + towndata[i].photo);
       image.setAttribute('class', 'homeimg');
 
       //organize elements to create card
@@ -61,7 +62,5 @@ fetch(requestURL)
       document.querySelector('div.hometowns').appendChild(homecard);
 
 
-     
-      div.setAttribute('class', 't-data')
     }
   });

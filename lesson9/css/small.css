@@ -114,14 +114,6 @@ div .heroimg {
     color: whitesmoke;
 }
 
-img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
 
 
 
@@ -138,6 +130,15 @@ img {
 figure {
     margin-left: 2em;
 }
+.galleryimg[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.galleryimg {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
 
 /*-------home--------*/
 div.hometowns {
@@ -176,7 +177,7 @@ div.hometowns {
 }
 #map {
     border: 50px silver;
-    margin: 0;
+    width: 2rem;
 }
 /*----------- FOOTER --------------*/
 footer {
