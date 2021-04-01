@@ -3,32 +3,29 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-var date=new Date();
-var weekList=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var monthList=["January", "Febrary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-document.getElementById("date").innerHTML=weekList[date.getDay()]  + ", " + date.getDate() +   " " + monthList[date.getMonth()] +  " " + date.getFullYear();
+var date = new Date();
+var weekList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var monthList = ["January", "Febrary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+document.getElementById("date").innerHTML = weekList[date.getDay()] + ", " + date.getDate() + " " + monthList[date.getMonth()] + " " + date.getFullYear();
 
 
-        const today = new Date();
-        console.log(today);
+const today = new Date();
+console.log(today);
 
-        const dayNumber = today.getDate();
-        console.log(dayNumber);
+const dayNumber = today.getDate();
+console.log(dayNumber);
 
-        const element = document.getElementById("message");
+const element = document.getElementById("message");
 
-        if (dayNumber == 6) {
-            element.classList.add("showme");
-        } else {
-            element.classList.add("hideme");
-        }
-    
-        
-        WebFont.load({
-            google: {
-                families: ['Roboto']
-            }
-        });
+if (dayNumber == 6) {
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}
 
-        const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
-    
+
+WebFont.load({
+    google: {
+        families: ['Roboto']
+    }
+});

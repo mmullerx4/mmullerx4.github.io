@@ -169,7 +169,10 @@ div.hometowns {
  /*-----------preFOOTER --------------*/ 
 #contact {
     margin-top: 5rem;
-    margin-left: 50px;
+    margin-left: 10px;
+}
+.contactinfo {
+    margin-left: 10px;
 }
 #map {
     border: 50px silver;
