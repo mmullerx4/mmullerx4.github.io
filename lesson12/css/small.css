@@ -20,35 +20,52 @@ body {
     font-size: 15px;
     font-family: 'Roboto Slab', serif;
     font-family: 'Rubik', sans-serif;
-    background-color: #c4ced5;
+    
 }
 
 /*-----header------*/
-header {
-    background-color: #3B4A54;
-    color: #FFFFFF;
+header {background-color: #3B4A54; color: #FFFFFF;
     padding: 1.5rem 2%;
 }
 
 header img {
-    float: left;
-    margin-bottom: 50px;
+    float: left; margin-right: 20px; width: 50px; 
 }
-
-header h1 {
-    font-size: 1.3rem;
-}
-
-
+header h1 {font-size: 1.3rem;}
+.header, .nav {max-width: 64rem; margin: auto;}
 
 /*-----navigation-----*/
-nav {
-    background-color: #889CAA;
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
 }
-nav ul {
-    list-style-type: none;
-    
-    
+.hide {display: none;}
+nav {background-color: #889CAA;}
+nav ul {list-style-type: none; padding: 0; margin: 0;
+}
+nav ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: #3B4A54; color: #FFFFFF;
+}
+nav ul li.active a {
+    background-color: #080B0C;
+    color: #FFFFFF;
+}
+
+/*-------main-------*/
+main {
+    min-height: 10rem;
+    background-color: #c4ced5;
+    color: #080B0C;
 }
 
 /*-----footer-----*/
@@ -56,4 +73,12 @@ footer {
     background-color: #3B4A54;
     color: #FFFFFF;
     padding: .75rem 10%;
+}
+
+
+/*-----clearfix: Force to not collapse----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
