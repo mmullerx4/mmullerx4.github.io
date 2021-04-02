@@ -30,9 +30,9 @@ fetch(requestURL)
       //add json data to elements (assigning the data)
       homeh2.textContent = towndata[i].name;
       homeh3.textContent = towndata[i].motto;
-      p1.textContent = towndata[i].yearFounded;
-      p2.textContent = towndata[i].currentPopulation;
-      p3.textContent = towndata[i].averageRainfall;
+      p1.textContent = "Year Founded: " + towndata[i].yearFounded;
+      p2.textContent = "Current Population: " + towndata[i].currentPopulation;
+      p3.textContent = "Average Rainfall: " + towndata[i].averageRainfall;
 
       //Attributes
       homecard.setAttribute('class', 'homecard');

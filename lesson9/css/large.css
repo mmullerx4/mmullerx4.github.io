@@ -50,10 +50,15 @@ padding: 1rem;
   .homecard {
     border: 1px solid #042a2b;
     border-radius: 30px;
-    margin: 10px;
-    
-    
+    margin: 10px;   
 }
+.t-title {
+    width: 200%;
+}
+.t-data {
+    width: 200%; 
+    margin: 10px;
+ }
   
   
 
