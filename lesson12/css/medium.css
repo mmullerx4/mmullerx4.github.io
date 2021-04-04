@@ -3,12 +3,15 @@
 /*--------header-------*/
 header img {width: 100px;}
 header h1 {font-size: 2rem;}
+.header {display: flex; margin-right: 3rem;}
 
 /*-------navigation------*/
 nav ul {margin-left: 2%;}
 nav ul li {float: left;}
+nav ul li a {padding: .5rem 1rem;}
+nav button {display: none;}
+nav ul.hide {display: block;}
 
-
-
+/*-------main------*/
 
 } /*--------end medium---------*/
