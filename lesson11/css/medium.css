@@ -4,15 +4,14 @@
 header img {width: 100px;}
 header h1 {font-size: 2rem;}
 header h2 {font-size: 1.5rem;}
+.header {display: flex; margin-right: 3rem;}
 
 
 /*------navigation-----------*/
 nav ul {margin-left: 2%;}
 nav ul li {float: left;}
 nav ul li a{padding: .5rem 1rem;}
-
 nav button {display: none;}
-
 nav ul.hide {display: block;}
 
 
@@ -65,18 +64,26 @@ figure {
 
 }
 /*------home--------*/
-article {
+div.hometowns {
     display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
   }
+  div.hometowns :nth-child(odd) {
+      flex-direction: row-reverse;
+  }
+  .towncontent {
+      width: 50%;
+  }
+  .homeimg {
+      width: 50%;
+      border-radius: 10px;
+  }
+ 
   
-  article:nth-child(odd) img {
-      grid-column: 2;
-  }
-  
-  article:nth-child(odd) .data {
-      grid-column: 1;
-      grid-row: 1;
-  }
+ .homecard {
+     flex-direction: row;
+     border: none;
+ }
+
 
 } /*-----end medium------*/
