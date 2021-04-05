@@ -67,7 +67,7 @@ main {
     background-color: #c4ced5;
     color: #080B0C;
 }
-div#alert {background-color: red; padding: .5rem;}
+div#alert {background-color: rgb(245, 61, 61); color: black; padding: .5rem;}
 div.showme {display: block;}
 div.hideme {display: none;}
 
