@@ -3,62 +3,63 @@
             "name": "John Smith",
             "Organization": "Animal Clinic of Pinckney",
             "Address": "151 N. Howell St.",
-            "Phone": "(734)878-0290",
+            "Phone": "(734)878-0290"
         },
 
         {
             "name": "John Smith",
             "Organization": "Adiska Family Dental",
             "Address": "625 Main St.",
-            "Phone": "(734)878-9019",
+            "Phone": "(734)878-9019"
         },
         {
             "name": "John Smith",
             "Organization": "Auto Zone",
             "Address": "1343 E. Main St.",
-            "Phone": "(734)878-6744",
+            "Phone": "(734)878-6744"
         },
         {
             "name": "John Smith",
             "Organization": "Busch's",
             "Address": "1277 E. M36",
-            "Phone": "(734)878-7500",
+            "Phone": "(734)878-7500"
         },
         {
             "name": "Joe Jones",
             "Organization": "BP",
             "Address": "850 E. Main St.",
-            "Phone": "(734)878-9725",
+            "Phone": "(734)878-9725"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Auto Wash",
             "Address": "1090 E. Main St.",
-            "Phone": "(734)878-0003",
+            "Phone": "(734)878-0003"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Chrysler Dodge",
             "Address": "1295 E. Main St.",
-            "Phone": "(888)592-4886",
+            "Phone": "(888)592-4886"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Bakery",
             "Address": "131 E. Main St.",
-            "Phone": "(734)954-9198",
+            "Phone": "(734)954-9198"
         },
         {
             "name": "John Smith",
             "Organization": "Rite Aid",
             "Address": "75 S. Dexter Rd.",
-            "Phone": "(734)878-2047",
+            "Phone": "(734)878-2047"
         },
         {
             "name": "John Smith",
             "Organization": "Subway",
             "Address": "211 E. Main St.",
-            "Phone": "(734)878-5680",
+            "Phone": "(734)878-5680"
         }
 
-    ] //file ending
+    ]
+}
