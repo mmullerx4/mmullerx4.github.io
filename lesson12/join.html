@@ -45,15 +45,40 @@
     <!--main section-->
     <main>
         <div>
-            <h1>The benefits of joining the PCOC</h1>
+            <h1>The Benefits of Joining the PCOC</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni earum ex cum optio ut a quasi illo
                 dolores excepturi officiis. Non ab id, consequatur voluptatum iure aperiam voluptatem debitis
                 reiciendis, excepturi quibusdam, dicta ipsam aspernatur dolorem pariatur? Quaerat error reiciendis,
                 accusantium nihil fuga nesciunt amet minus, est, voluptatum vitae magni.</p>
+
         </div>
-        <h2>Member Application</h2>
-    <form method="get" action="thanks.html"></form>
-        <lengend>Applicant Information</lengend>
+        <h2>Membership Application</h2>
+        <div id="bronze">
+            <h3>Bronze $200</h3>
+            <ul><li>Directory listings</li>
+                <li>Social Media Posts</li>
+            </ul>
+        </div>
+        <div id="silver">
+            <h3>Silver $400</h3>
+            <ul><li>Directory listings</li>
+                <li>Social Media Posts</li>
+                <li>Advertising Sponsorship</li>
+            </ul>
+        </div>
+        <div id="gold">
+        <h3>Gold $1000</h3>
+        <ul><li>Directory listings</li>
+            <li>Advertising Sponsorship</li>
+            <li>Social Media Posts</li>
+            <li>Business Trainings</li>
+            <li>Luncheon Tickets</li>
+        </ul>
+    </div>
+
+    <form method="get" action="thanks.html">
+        <fieldset>
+    <lengend>Applicant Information</lengend>
         <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label>
         <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>
         <label class="top">Title <input type="text" name="title" pattern="[A-Za-z]{5,}" ></label>
@@ -65,11 +90,19 @@
         <label class="top">Website Address <input type="url" name="url" placeholder="localbusiness.com"></label>
         <label for="comments">Business Description</label>
         <textarea class="top" name = "description" placeholder="Type description here" maxlength="5555" rows="5" cols="45"></textarea>
-
-    </main>
-
-
-
+    </fieldset>
+    <fieldset>
+        <legend>Please select membership type.</legend>
+        <input type="radio" name="memtype" id="bronze" value="bronze">
+        <label for="bronze">Bronze</label>
+        <input type="radio" name="memtype" id="silver" value="silver">
+        <label for="silver">Silver</label>
+        <input type="radio" name="memtype" id="gold" value="gold">
+        <label for="gold">Gold</label>
+    </fieldset>
+    <input type="submit" class="submit">
+</form>
+</main>
 
 
 
