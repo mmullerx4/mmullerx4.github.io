@@ -2,62 +2,72 @@
     "Directory": [{
             "name": "John Smith",
             "Organization": "Animal Clinic of Pinckney",
-            "Address": "151 N. Howell St.",
+            "Address1": "151 N. Howell St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-0290"
         },
 
         {
             "name": "John Smith",
             "Organization": "Adiska Family Dental",
-            "Address": "625 Main St.",
+            "Address1": "625 Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-9019"
         },
         {
             "name": "John Smith",
             "Organization": "Auto Zone",
-            "Address": "1343 E. Main St.",
+            "Address1": "1343 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-6744"
         },
         {
             "name": "John Smith",
             "Organization": "Busch's",
-            "Address": "1277 E. M36",
+            "Address1": "1277 E. M36",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-7500"
         },
         {
             "name": "Joe Jones",
             "Organization": "BP",
-            "Address": "850 E. Main St.",
+            "Address1": "850 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-9725"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Auto Wash",
-            "Address": "1090 E. Main St.",
+            "Address1": "1090 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-0003"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Chrysler Dodge",
-            "Address": "1295 E. Main St.",
+            "Address1": "1295 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(888)592-4886"
         },
         {
             "name": "John Smith",
             "Organization": "Pinckney Bakery",
-            "Address": "131 E. Main St.",
+            "Address1": "131 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)954-9198"
         },
         {
             "name": "John Smith",
             "Organization": "Rite Aid",
-            "Address": "75 S. Dexter Rd.",
+            "Address1": "75 S. Dexter Rd.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-2047"
         },
         {
             "name": "John Smith",
             "Organization": "Subway",
-            "Address": "211 E. Main St.",
+            "Address1": "211 E. Main St.",
+            "Address2": "Pinckney, MI 48169",
             "Phone": "(734)878-5680"
         }
 
