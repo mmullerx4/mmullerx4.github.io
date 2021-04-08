@@ -32,6 +32,7 @@ section.forecast div {
 section.forecast img {
     max-height: 2rem;
 }
+/*-----end forecast------*/
 #articleimg {
     float: right;
     margin-top: 3rem;

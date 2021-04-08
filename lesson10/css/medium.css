@@ -21,8 +21,6 @@ nav ul.hide {display: block;}
 section.forecast {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 1rem;
-    margin-left: -1rem;
     
 }
 section.forecast div {
@@ -35,9 +33,10 @@ section.forecast div {
 section.forecast img {
     max-height: 2rem;
 }
+/*------end forecast------*/
 #articleimg {
     float: right;
-    margin-top: -45px;
+    margin-top: 3rem;
 }
  .contactinfo {
      display: grid;

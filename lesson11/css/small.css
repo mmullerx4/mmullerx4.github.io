@@ -79,9 +79,7 @@ main {
 section.forecast {
     display: none;   
 }
-#5day {
-    display: none;
-}
+
 
 div#message { background-color: plum;}
 div.showme {display: block;}
