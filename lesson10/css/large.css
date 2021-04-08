@@ -19,6 +19,14 @@
         padding: .6rem 1rem;
     }
 /*-----gallery------*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin: 0;
+    
+}
+.gallery img {
         box-shadow: 10px 10px 5 px rgb(114, 59, 177)
     }
     .lazy {
@@ -26,7 +34,26 @@
         grid-template-columns: 1fr; 
     }
 /*--------home-------*/
-
+div.hometowns {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.hometowns section {
+display: block;
+padding: 1rem;
+  }
+  .homecard {
+    border: 1px solid #042a2b;
+    border-radius: 30px;
+    margin: 10px;   
+}
+.t-title {
+    width: 200%;
+}
+.t-data {
+    width: 200%; 
+    margin: 10px;
+ }
   
   
 
