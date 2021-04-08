@@ -30,5 +30,4 @@ document.getElementById("date").innerHTML=weekList[date.getDay()]  + ", " + date
             }
         });
 
-        const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
-    
+       
