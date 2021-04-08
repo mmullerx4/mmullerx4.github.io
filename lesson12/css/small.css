@@ -43,8 +43,7 @@ nav button {
 }
 .hide {display: none;}
 nav {background-color: #889CAA;}
-nav ul {list-style-type: none; padding: 0; margin: 0;
-}
+nav ul {list-style-type: none; padding: 0; margin: 0;}
 nav ul li a {
     display: block;
     color: #FFFFFF;
@@ -72,6 +71,30 @@ div.showme {display: block;}
 div.hideme {display: none;}
 
 .heroimg img {display: block; width: 100%;}
+
+#events {
+    border: 1px solid #080B0C;
+    padding: 10px;
+}
+.midsect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.midsect img {
+    border: 1px solid black;
+}
+.bottomsect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#business1 {
+    20px;
+}
+.bottomsect img {
+    border: 1px solid black;
+    margin-top: 20px;
+}
 
 /*-----city------*/
 
