@@ -89,7 +89,7 @@ div.hideme {display: none;}
     grid-template-columns: 1fr 1fr;
 }
 #business1 {
-    20px;
+    margin-top: 7px;
 }
 .bottomsect img {
     border: 1px solid black;
@@ -97,7 +97,9 @@ div.hideme {display: none;}
 }
 
 /*-----city------*/
-
+.pheroimg {
+    display: block; width: 100%;
+}
 
 /*------join-----*/
 
