@@ -51,16 +51,22 @@
         <h1>Preston Idaho</h1>
 
         <div class="heroimg">
-            <img src="images/felix1200.jpg" alt="preston" loading="lazy">
+            <picture class="photo1">
+                <source media="(max-width: 400px" ) srcset="images/franklin400.jpg">
+                <source media="(max-width: 800px" ) srcset="images/franklin800.jpg">
+                <img src="images/felix1200.jpg" alt="preston">
+            </picture>
             <section class="summarybox">
                 <h3>Weather Summary</h3>
-                <p>x: v</p>
-                <p>x: v</p>
-                <p>x: v</p>
+                <span>
+                    <p>Temperature:<span id="temp"> 25</span>&deg;</p>
+                    <p>Wind speed:<span id="speed"> 20</span>mph</p>
+                    <p id="chill"></p>
+                </span>
             </section>
         </div>
 
-        <h2 id="5day">5 Day Forecast</h2>
+        <h2>5 Day Forcast</h2>
         
         <section class="forecast">
             
