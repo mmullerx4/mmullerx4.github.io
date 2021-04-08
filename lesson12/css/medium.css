@@ -13,5 +13,11 @@ nav button {display: none;}
 nav ul.hide {display: block;}
 
 /*-------main------*/
+.midsect {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bottomsect {
+    grid-template-columns: 1fr 1fr;
+}
 
 } /*--------end medium---------*/

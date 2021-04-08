@@ -65,7 +65,9 @@ main {
     min-height: 10rem;
     background-color: #c4ced5;
     color: #080B0C;
+    margin-top: 20px;
 }
+
 div#alert {background-color: rgb(245, 61, 61); color: black; padding: .5rem;}
 div.showme {display: block;}
 div.hideme {display: none;}
@@ -78,7 +80,7 @@ div.hideme {display: none;}
 }
 .midsect {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 10px;
 }
 .midsect img {
@@ -86,7 +88,7 @@ div.hideme {display: none;}
 }
 .bottomsect {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 #business1 {
     margin-top: 7px;
@@ -97,17 +99,25 @@ div.hideme {display: none;}
 }
 
 /*-----city------*/
-.pheroimg {
-    display: block; width: 100%;
-}
+.pheroimg img {display: block; width: 100%;}
+
+
 
 /*------join-----*/
-
+.button {
+    padding: .5rem;
+}
 
 /*------directory-------*/
 
 
 /*-------contact-------*/
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
 .mapouter {
     position: relative;
     text-align: right;
@@ -120,6 +130,11 @@ div.hideme {display: none;}
     height: 500px;
     width: 600px;
 }
+/*-------thankyou1-------*/
+#th1 {
+    margin-top: 1rem;
+}
+
 /*-----footer-----*/
 footer {
     background-color: #3B4A54;
