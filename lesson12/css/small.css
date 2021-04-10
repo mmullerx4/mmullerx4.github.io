@@ -25,7 +25,8 @@ body {
 
 /*-----header------*/
 header {background-color: #3B4A54; color: #FFFFFF;
-    padding: 1.5rem 2%;
+    padding: 1.5rem .9%;
+    
 }
 
 header img {
@@ -61,6 +62,11 @@ nav ul li.active a {
     background-color: #080B0C;
     color: #FFFFFF;
 }
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    font-size: 2rem;
+} 
 
 /*-------main-------*/
 main {
@@ -70,15 +76,43 @@ main {
     margin-top: 20px;
 }
 
-div#alert {background-color: rgb(245, 61, 61); color: black; padding: .5rem;}
+div#alert {
+    background-color: rgb(245, 61, 61); 
+    color: black; 
+    padding: .5rem;
+}
 div.showme {display: block;}
 div.hideme {display: none;}
 
 .heroimg img {display: block; width: 100%;}
 
+img {
+    width: 100%;
+}
+
+#about {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#join {
+    margin: 15px;
+}
+
+#weather {
+    margin: 15px;
+}
+section img {
+    margin: 15px;
+    width: 90%;
+}
+
 #events {
     border: 1px solid #080B0C;
-    padding: 10px;
+    padding: 15px;
+    width: 90%;
+    margin-left: 15px;
+   
 }
 .midsect {
     display: grid;
@@ -94,10 +128,17 @@ div.hideme {display: none;}
 }
 #business1 {
     margin-top: 7px;
+    margin: 15px;
 }
 .bottomsect img {
     border: 1px solid black;
     margin-top: 20px;
+}
+p {
+    margin-top: 0;
+}
+#contact {
+    margin: 15px;
 }
 
 /*-----city------*/

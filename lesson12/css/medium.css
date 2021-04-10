@@ -19,5 +19,17 @@ nav ul.hide {display: block;}
 .bottomsect {
     grid-template-columns: 1fr 1fr;
 }
+img {
+    width:auto;
+}
+#about {
+    margin-right: 10%;
+}
+#events {
+    width: 100%;
+}
+section img {
+    width: 100%;
+}
 
 } /*--------end medium---------*/
