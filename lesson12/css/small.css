@@ -108,7 +108,7 @@ section img {
 }
 
 #events {
-    border: 1px solid #080B0C;
+   
     padding: 15px;
     width: 90%;
     margin-left: 15px;
@@ -139,6 +139,7 @@ p {
 }
 #contact {
     margin: 15px;
+    margin-top: 5rem;
 }
 
 /*-----city------*/
@@ -151,8 +152,11 @@ p {
     padding: .5rem;
 }
 
-/*------directory-------*/
 
+/*------directory-------*/
+.directory ul {
+    list-style-type: none;
+}
 
 /*-------contact-------*/
 

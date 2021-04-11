@@ -14,11 +14,9 @@ nav ul.hide {display: block;}
 
 /*-------main------*/
 .midsect {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.bottomsect {
     grid-template-columns: 1fr 1fr;
 }
+
 img {
     width:auto;
 }
@@ -28,8 +26,35 @@ img {
 #events {
     width: 100%;
 }
+#events ul li {
+    font-size: 20px;
+}
 section img {
+    width: 95%;
+    height: 93%;
+}
+#sideimg {
+    float: right;
+    margin-right: 15px;
+    width: 40%;
+}
+#dentalimg {
+    margin-top: -15px;
+}
+.bottomsect {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+#business1 {
     width: 100%;
+}
+#business1 ul {
+    columns: 2;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#pefooter {
+    grid-template-columns: 2fr 1fr;
 }
 
 } /*--------end medium---------*/
