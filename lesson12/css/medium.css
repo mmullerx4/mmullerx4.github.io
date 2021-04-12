@@ -58,7 +58,13 @@ section img {
     font-size: 20px;
 }
 #prefooter {
-    grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+#social {
+    margin-top: 50px;
+    
 }
 
 } /*--------end medium---------*/

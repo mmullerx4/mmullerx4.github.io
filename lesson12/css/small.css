@@ -142,7 +142,11 @@ p {
 }
 #contact {
     margin: 15px;
-    margin-top: 5rem;
+    margin-top: 1rem;
+}
+#social {
+    margin-top: 1rem;
+    
 }
 
 /*-----city------*/
