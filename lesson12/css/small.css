@@ -75,7 +75,7 @@ main {
     min-height: 10rem;
     background-color: #c4ced5;
     color: #080B0C;
-    margin-top: 20px;
+    
 }
 
 div#alert {
@@ -146,27 +146,83 @@ p {
 }
 
 /*-----city------*/
-.pheroimg img {display: block; width: 100%;}
+.pheroimg img {display: block; width: 100%;} 
+#pinckneyh1 {
+    margin: 15px;
+}
+#pinckneyh2hist {
+    margin: 15px;
+}
+#pinckneyh2curr {
+    margin: 15px;
+}
+#pinckneyevent {
+    margin: 15px;
+}
+#pevents {
+    padding-bottom: 15px;
+    margin-bottom: -15px;
+}
 
 
 
 /*------join-----*/
+#mainjoin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+#joinh1 {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#joinh21, #joinh22, #joinh3 {
+    margin-left: 15px;
+}
+.memopt {
+    margin-left: 15px;
+}
 .button {
     padding: .5rem;
+    margin-left: 15px;
+    padding-bottom: 15px;
 }
 
-
 /*------directory-------*/
+#directorymain {
+    padding: 20px;
+}
+.bdirectory {
+    margin-left: 15px;
+}
 .directory ul {
     list-style-type: none;
 }
+#directoryh1 {
+    padding: 30px;
+}
 
 /*-------contact-------*/
+#contactmain {
+    margin-top: -20px;
+}
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
     font-size: 1rem;
+}
+#contacth1, #contacth2, #contacth3 {
+    margin-left: 15px;
+}
+#contacth1 {
+    padding-top: 40px;
+}
+#contacth2 {
+    padding-bottom: 20px;
+}
+.title {
+    margin-left: 15px;
 }
 .mapouter {
     position: relative;
