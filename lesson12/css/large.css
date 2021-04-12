@@ -6,12 +6,12 @@
     .header {margin-left: 12.2rem;}
 
     /*----navigation-----*/
-    nav {margin-right: 2.6%;}
+    
     nav ul li a {
         border: none;
         border-right: 1px solid #1f2a2e;
         padding: .6rem 4.5rem;
-    }
-
+        }
+        
 
 } /*----end large-----*/
