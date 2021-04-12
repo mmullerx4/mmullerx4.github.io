@@ -23,6 +23,10 @@ img {
 #about {
     margin-right: 10%;
 }
+#day {
+    display: flex;
+    flex-direction: column;
+}
 #events {
     width: 100%;
 }
@@ -35,7 +39,7 @@ section img {
 }
 #sideimg {
     float: right;
-    margin-right: 15px;
+    margin-right: 10px;
     width: 40%;
 }
 #dentalimg {
@@ -53,7 +57,7 @@ section img {
     margin-top: 10px;
     font-size: 20px;
 }
-#pefooter {
+#prefooter {
     grid-template-columns: 2fr 1fr;
 }
 
