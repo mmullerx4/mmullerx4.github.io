@@ -20,20 +20,32 @@ body {
     font-size: 15px;
     font-family: 'Roboto Slab', serif;
     font-family: 'Rubik', sans-serif;
-    
+
 }
 
 /*-----header------*/
-header {background-color: #3B4A54; color: #FFFFFF;
+header {
+    background-color: #3B4A54;
+    color: #FFFFFF;
     padding: 1.5rem .9%;
-    
+
 }
 
 header img {
-    float: left; margin-right: 3px; width: 50px; 
+    float: left;
+    margin-right: 3px;
+    width: 50px;
 }
-header h1 {font-size: 1.3rem;}
-.header, .nav {max-width: 64rem; margin: auto;}
+
+header h1 {
+    font-size: 1.3rem;
+}
+
+.header,
+.nav {
+    max-width: 64rem;
+    margin: auto;
+}
 
 /*-----navigation-----*/
 nav button {
@@ -42,11 +54,21 @@ nav button {
     border: none;
     color: #FFFFFF;
 }
-.hide {display: none;}
+
+.hide {
+    display: none;
+}
+
 nav {
     background-color: #889CAA;
-   }
-nav ul {list-style-type: none; padding: 0; margin: 0;}
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 nav ul li a {
     display: block;
     color: #FFFFFF;
@@ -55,38 +77,50 @@ nav ul li a {
     font-size: .9rem;
     text-align: center;
 }
+
 nav ul li a:hover {
-    background-color: #3B4A54; 
+    background-color: #3B4A54;
     color: #FFFFFF;
-   
+
 }
+
 nav ul li.active a {
     background-color: #080B0C;
     color: #FFFFFF;
 }
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
     font-size: 2rem;
-} 
+}
 
 /*-------main-------*/
 main {
     min-height: 10rem;
     background-color: #c4ced5;
     color: #080B0C;
-    
+
 }
 
 div#alert {
-    background-color: rgb(245, 61, 61); 
-    color: black; 
+    background-color: rgb(245, 61, 61);
+    color: black;
     padding: .5rem;
 }
-div.showme {display: block;}
-div.hideme {display: none;}
 
-.heroimg img {display: block; width: 100%;}
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+.heroimg img {
+    display: block;
+    width: 100%;
+}
 
 img {
     width: 100%;
@@ -111,58 +145,74 @@ section img {
 }
 
 #events {
-   
+
     padding: 15px;
     width: 90%;
     margin-left: 15px;
-   
+
 }
+
 .midsect {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 10px;
 }
+
 .midsect img {
     border: 1px solid black;
 }
+
 .bottomsect {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 #business1 {
     margin-top: 7px;
     margin: 15px;
 }
+
 .bottomsect img {
     border: 1px solid black;
     margin-top: 20px;
 }
+
 p {
     margin-top: 0;
 }
+
 #contact {
     margin: 15px;
     margin-top: 1rem;
 }
+
 #social {
     margin-top: 1rem;
-    
+
 }
 
 /*-----city------*/
-.pheroimg img {display: block; width: 100%;} 
+.pheroimg img {
+    display: block;
+    width: 100%;
+}
+
 #pinckneyh1 {
     margin: 15px;
 }
+
 #pinckneyh2hist {
     margin: 15px;
 }
+
 #pinckneyh2curr {
     margin: 15px;
 }
+
 #pinckneyevent {
     margin: 15px;
 }
+
 #pevents {
     padding-bottom: 15px;
     margin-bottom: -15px;
@@ -176,16 +226,22 @@ p {
     padding-bottom: 20px;
     margin-right: 15px;
 }
+
 #joinh1 {
     margin-left: 15px;
     margin-top: 30px;
 }
-#joinh21, #joinh22, #joinh3 {
+
+#joinh21,
+#joinh22,
+#joinh3 {
     margin-left: 15px;
 }
+
 .memopt {
     margin-left: 15px;
 }
+
 .button {
     padding: .5rem;
     margin-left: 15px;
@@ -196,12 +252,15 @@ p {
 #directorymain {
     padding: 20px;
 }
+
 .bdirectory {
     margin-left: 15px;
 }
+
 .directory ul {
     list-style-type: none;
 }
+
 #directoryh1 {
     padding: 30px;
 }
@@ -211,35 +270,45 @@ p {
     margin-top: -20px;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     font-size: 1rem;
 }
-#contacth1, #contacth2, #contacth3 {
+
+#contacth1,
+#contacth2,
+#contacth3 {
     margin-left: 15px;
 }
+
 #contacth1 {
     padding-top: 40px;
 }
+
 #contacth2 {
     padding-bottom: 20px;
 }
+
 .title {
     margin-left: 15px;
 }
+
 .mapouter {
     position: relative;
     text-align: right;
     height: 500px;
     width: 600px;
 }
+
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 500px;
     width: 600px;
 }
+
 /*-------thankyou1-------*/
 #th1 {
     margin-top: 1rem;
