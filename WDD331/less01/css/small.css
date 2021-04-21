@@ -1,0 +1,32 @@
+
+h1, h2 { font-family: 'Lora', serif; }
+
+.header {
+    background-color: #6495ED;
+    color: #FAEBD7;
+    padding: 2rem;
+}
+h1 {
+    text-align: right;
+    margin-right: 10%;
+    font-size: 10px; 
+}
+.header a {
+    color: #FAEBD7;
+}
+ul li {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10%;
+}
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+hr { width: 100%; }
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FAEBD7;
+}
+
