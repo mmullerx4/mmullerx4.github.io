@@ -1,36 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-
+/*-----header------*/
 header {
     background-color: #6495ED;
     color: #FAEBD7;
     padding: 2rem;
 }
-h1, h2 { font-family: 'Lora', serif; }
+h1 { font-family: 'Lora', serif; }
 
 header h1 {
     text-align: right;
     margin-right: 10%;
     font-size: 23px; 
 }
-header a {
-    color: #FAEBD7;
-}
-ul li {
+/*-----navigation-----*/
+nav ul {
     list-style-type: none;
     text-align: right;
     margin-right: 10%;
 }
+
+nav ul li a {
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #FAEBD7;
+}
 ul li:first-child, li:nth-child(2) {
     padding-bottom: 15px;
 }
-a {
-    font-family: Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: black;
+nav ul li a:hover { 
+    color: white;
+    text-decoration: underline;
+}
+nav ul li.active a {
+    color: #deb887;
 }
 hr { width: 85%; }
+/*-------main-------*/
 main {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #FAEBD7;
+}
+.post-date, .post-content {
+    border: inset;
+    
 }
