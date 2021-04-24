@@ -7,7 +7,7 @@ header {
     padding: 2rem;
    
 }
-h1 { font-family: 'Lora', serif; }
+h1, h2 { font-family: 'Lora', serif; }
 
 header h1 {
     text-align: right;
@@ -17,6 +17,13 @@ header h1 {
 }
 header h1 a {
     color: #FAEBD7;
+}
+header h1 a:active {
+    color: #DEB887;
+}
+header h1 a:hover {
+    color: white;
+    text-decoration: underline;
 }
 a {
     text-decoration: none;
@@ -39,7 +46,7 @@ nav ul li a:hover {
     color: white;
     text-decoration: underline;
 }
-nav ul li.active a {
+nav ul li a:active {
     color: #deb887;
 }
 hr { width: 100%; }
@@ -51,6 +58,9 @@ main {
     padding-left: 1rem;
     padding-bottom: 2rem;
 }
+.post-date {
+    font-size: small;
+}
 article {
     border: 1px solid black;
     border-radius: 2px;
@@ -60,4 +70,26 @@ article {
 }
 article:nth-child(2) {
     margin-top: 2rem;
+}
+h2 {
+    font-size: 1em;
+}
+h2 a { 
+    color: black;
+}
+h2 a:active {
+    color: #DEB887;
+}
+h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+section p a {
+    color: #6495ED;
+}
+section p a:active {
+    color: #DEB887;
+}
+section p a:hover {
+    text-decoration: underline;
 }
