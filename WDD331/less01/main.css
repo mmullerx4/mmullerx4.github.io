@@ -1,33 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+body {
+    margin: 0;
+}
+
 /*-----header------*/
 header {
     background-color: #6495ED;
     color: #FAEBD7;
     padding: 2rem;
-   
+
 }
-h1, h2 { font-family: 'Lora', serif; }
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
 
 header h1 {
     text-align: right;
     margin-right: 2%;
     font-size: 23px;
-    
+
 }
+
 header h1 a {
     color: #FAEBD7;
 }
+
 header h1 a:active {
     color: #DEB887;
 }
+
 header h1 a:hover {
     color: white;
     text-decoration: underline;
 }
+
 a {
     text-decoration: none;
 }
+
 /*-----navigation-----*/
 nav ul {
     list-style-type: none;
@@ -39,17 +52,25 @@ nav ul li a {
     font-family: Helvetica, Arial, sans-serif;
     color: #FAEBD7;
 }
-ul li:first-child, li:nth-child(2) {
+
+ul li:first-child,
+li:nth-child(2) {
     padding-bottom: 15px;
 }
-nav ul li a:hover { 
+
+nav ul li a:hover {
     color: white;
     text-decoration: underline;
 }
+
 nav ul li a:active {
     color: #deb887;
 }
-hr { width: 100%; }
+
+hr {
+    width: 100%;
+}
+
 /*-------main-------*/
 main {
     font-family: Helvetica, Arial, sans-serif;
@@ -58,38 +79,85 @@ main {
     padding-left: 1rem;
     padding-bottom: 2rem;
 }
+
 .post-date {
     font-size: small;
 }
+
 article {
     border: 1px solid black;
     border-radius: 2px;
     background-color: white;
-    width: 12rem;
-    padding: 40px;  
+    width: 15rem;
+    margin: 5px;
+    padding: 40px;
 }
+
 article:nth-child(2) {
     margin-top: 2rem;
 }
+
 h2 {
     font-size: 1em;
 }
-h2 a { 
+
+h2 a {
     color: black;
 }
+
 h2 a:active {
     color: #DEB887;
 }
+
 h2 a:hover {
     color: #6495ED;
     text-decoration: underline;
 }
+
 section p a {
     color: #6495ED;
 }
+
 section p a:active {
     color: #DEB887;
 }
+
 section p a:hover {
     text-decoration: underline;
 }
+
+figure img {
+    width: 100%;
+}
+
+/*-----large screen-------*/
+@media only screen and (min-width: 35rem) {
+    /*------64rem?-----*/
+
+    header {
+        top: 0;
+        left: 0;
+        width: 150px;
+        position: absolute;
+    }
+
+    body {
+        border-left: 250px solid #6495ED;
+    }
+    
+
+    header h1 {
+        font-size: 30px;
+    }
+    article {
+        margin: auto;
+    }
+    article h2 {
+        font-size: 30px;
+    }
+    article section.post-content {
+        width: 100%;
+    }
+
+   
+}/*-------end large-------*/
