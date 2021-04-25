@@ -29,7 +29,7 @@ header h1 a {
     color: #FAEBD7;
 }
 
-header h1 a:active {
+h1 a:active {
     color: #DEB887;
 }
 
