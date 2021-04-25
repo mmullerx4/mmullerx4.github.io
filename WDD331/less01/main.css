@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 /*-----header------*/
@@ -132,32 +133,62 @@ figure img {
 
 /*-----large screen-------*/
 @media only screen and (min-width: 35rem) {
+
     /*------64rem?-----*/
+    body {
+        position: relative;
+        max-width: 54rem;
+        margin: auto;
+
+        border-left: 15rem solid #6495ED;
+    }
 
     header {
         top: 0;
-        left: 0;
-        width: 150px;
+        left: -15rem;
+        width: 11rem;
         position: absolute;
-    }
-
-    body {
-        border-left: 250px solid #6495ED;
-    }
-    
-
-    header h1 {
-        font-size: 30px;
-    }
-    article {
         margin: auto;
     }
-    article h2 {
-        font-size: 30px;
-    }
-    article section.post-content {
-        width: 100%;
+
+    main {
+
+        padding: 50px;
     }
 
-   
-}/*-------end large-------*/
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .post-date {
+        font-size: medium;
+    }
+
+    article {
+
+        margin: auto;
+        padding: 4rem;
+        width: 80%;
+    }
+
+    article h2 {
+        font-size: 2.8rem;
+    }
+
+    figure img {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section p {
+        font-size: 1.7rem;
+        font: bold;
+    }
+
+
+
+}
+
+/*-------end large-------*/
