@@ -1,0 +1,37 @@
+/*
+
+1.The second <p> of the second <fieldset> could be selected by either of these selectors below. 
+Explain why the first would be a better option than the second.
+fieldset[title=fieldset2] > p + p
+
+fieldset:nth-of-type(2) >p + p
+
+2.Explain the difference the space makes with the following two selectors: "span.help" and 
+"span .help". How does it change what will be selected?
+3.For the example HTML  download, write the CSS that would surround the help text (class=“help”) 
+with parenthesis.
+4.Short forms are always nice. Write a CSS rule that will hide any paragraphs in a fieldset after 
+the 2nd.
+*/
+
+/*
+1. I believe these would have the same specificity rating but the first selector is a direct target 
+of fieldset2 where the second selector is indirect by just referring to the second of it's type.
+
+2. "span.help" is targeting the span tags that have a class of "help" and "span .help" would be targeting
+any descendant of span with the class of help.
+
+3.*/
+    .help::before {
+    content: '(';
+}
+    .help::after {
+    content: ')';
+    }
+
+/*
+4. 
+*/
+fieldset~p:nth-child(n+3) {
+    display: none;
+}
