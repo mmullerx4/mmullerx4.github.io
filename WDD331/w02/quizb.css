@@ -18,8 +18,8 @@ the 2nd.
 1. I believe these would have the same specificity rating but the first selector is a direct target 
 of fieldset2 where the second selector is indirect by just referring to the second of it's type.
 
-2. "span.help" is targeting the span tags that have a class of "help" and "span .help" would be targeting
-any descendant of span with the class of help.
+2. "span.help" is targeting the span tags that have a class of "help" and "span .help" is looking 
+for a class that is as a descendant of span.
 
 3.*/
     .help::before {
