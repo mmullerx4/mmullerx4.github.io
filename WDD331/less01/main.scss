@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+/*
+Use nesting with pseudo-classes like :hover or :active
+@media queries are another place to take advantage of nesting.
+Colors or widths are a good candidate for variables.
+Applying prefixes (i.e. -webkit, -moz) is a great use for mixins.
+*/
+/*variable assignment*/
+$bgcolor: #FAEBD7;
+$active: #DEB887;
+$other: #6495ED;
+
+@mixin active-link {
+    color: $active;
+}
+
+@mixin width($width, ) {
+    }
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/*-----header------*/
+header {
+    background-color: $other;
+    color: $bgcolor;
+    padding: 2rem;
+
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+}
+
+header h1 {
+    text-align: right;
+    margin-right: 2%;
+    font-size: 23px;
+
+    a {
+    color: $bgcolor;
+    }
+
+    a:active {
+    @include active-link;
+    }
+
+    a:hover {
+    color: white;
+    text-decoration: underline;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----navigation-----*/
+nav { 
+    ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 2%;
+    }
+
+    ul li a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: $bgcolor;
+    }
+
+    ul li:first-child,
+    li:nth-child(2) {
+    padding-bottom: 15px;
+    }
+
+    ul li a:hover {
+    color: white;
+    text-decoration: underline;
+    }
+
+    ul li a:active {
+    @include active-link;
+    }
+}
+
+hr {
+    @include width(100%, );
+}
+
+/*-------main-------*/
+
+
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: $bgcolor;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.post-date {
+    font-size: small;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    @include width(15rem, );
+    margin: 5px;
+    padding: 40px;
+}
+
+article:nth-child(2) {
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h2 {
+
+    a {
+    color: black;
+    }
+
+    a:active {
+    @include active-link;
+    }
+
+    a:hover {
+    color: $other;
+    text-decoration: underline;
+    }
+}
+section p { 
+    a {
+    color: $other;
+    }
+
+    a:active {
+    @include active-link;
+    }
+
+    a:hover {
+    text-decoration: underline;
+    }
+}
+
+figure img {
+    @include width(100%, );
+}
+
+/*-----large screen-------*/
+@media only screen and (min-width: 35rem) {
+
+    /*------64rem?-----*/
+    body {
+        position: relative;
+        max-width: 54rem;
+        margin: auto;
+
+        border-left: 15rem solid $other;
+    }
+
+    header {
+        top: 0;
+        left: -15rem;
+        @include width(11rem, );
+        position: absolute;
+        margin: auto;
+    }
+
+    main {
+
+        padding: 50px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .post-date {
+        font-size: medium;
+    }
+
+    article {
+
+        margin: auto;
+        padding: 4rem;
+        @include width(80%, );
+    }
+
+    article h2 {
+        font-size: 2.8rem;
+    }
+
+    figure img {
+        display: block;
+        @include width(50%, );
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section p {
+        font-size: 1.7rem;
+        font: bold;
+    }
+
+
+
+}
+
+/*-------end large-------*/

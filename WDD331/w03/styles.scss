@@ -1,9 +1,84 @@
-//variables will follow
-$body-background-color: darkpink;
-$form-background-color: white;
-$input-color: white;
-$headlines-color: white;
+//variable assignment
+$break-small: 20em;
+$break-medium: 31em;
+$break-large: 60em;
+
+//crazy colors for fun
+$error-color: red;
+$body-background-color: rgb(139, 0, 116);
+$form-background-color: rgb(191, 194, 18);
+$input-color: antiquewhite;
+$headlines-color : white;
+
+@mixin center ($max-width, $width: 90%) {
+    width: $width;
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @mixin flex-container($axis, $wrap: nowrap) {
+    display: -webkit-box;
+    display: -webkit-flex; 
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: $axis $wrap;
+    -ms-flex-flow: $axis $wrap;
+    flex-flow: $axis $wrap;
+  }
+
+  @mixin breakpoint($break) {
+      @if $break == large {
+        @media (min-width: $break-lare) { @content; }
+      }
+      @else if $break == medium {
+        @media (min-width: $break-medium) { @content; }
+      }
+      @if $break == small {
+        @media (min-width: $break-small) { @content; }
+      }
+      @else {
+          @media ($break) { @content; }
+      }  
+    }
 
 body {
     background-color: $body-background-color;
 }
+
+#contactform {
+    background-color: $form-background-color;
+    a:hover {
+        background-color: antiquewhite;
+    }
+    input, textarea {
+        background-color: $input-color;
+        flex: 2;
+    }
+    @include breakpoint(medium) { @include center(700px) }
+    @include breakpoint(large) { @include center(900px,70%) }
+}
+
+#contactform fieldset>div {
+    @include flex-container(column);
+
+    label {
+        flex: 1;
+        text-align: left;
+    }
+    @include breakpoint(medium) {
+        @include flex-container(row);
+        justify-content: space-between;
+        margin-bottom: 1em;
+        label {
+            text-align: right;
+        }
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $headlines-color;
+}
+  
+
+  
