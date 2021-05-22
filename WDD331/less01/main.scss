@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-/*
-Use nesting with pseudo-classes like :hover or :active
-@media queries are another place to take advantage of nesting.
-Colors or widths are a good candidate for variables.
-Applying prefixes (i.e. -webkit, -moz) is a great use for mixins.
-*/
+
 /*variable assignment*/
 $bgcolor: #FAEBD7;
 $active: #DEB887;
@@ -16,6 +11,7 @@ $other: #6495ED;
 }
 
 @mixin width($width, ) {
+    width: $width;
     }
 
 body {
