@@ -1,0 +1,19 @@
+/* responsive background image */
+/*this rule crops*/
+.responsive-image1
+{
+    width: 100%;
+    height: 300px;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*this rule scales*/
+.responsive-image2
+{
+    width: 100%;
+    padding-bottom: 50%; /*0 height with padding botton of 50%*/
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+}
