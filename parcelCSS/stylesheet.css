@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+/* --variable assignment-- */
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* -----header------ */
+header {
+  background-color: #6495ed;
+  color: #faebd7;
+  padding: 2rem;
+}
+
+h1,
+h2 {
+  font-family: "Lora", serif;
+}
+
+header h1 {
+  text-align: right;
+  margin-right: 2%;
+  font-size: 23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h2 a {
+  color: black;
+}
+
+header h1 a {
+  color: #faebd7;
+}
+
+section p a {
+  color: #6495ed;
+}
+
+nav ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #faebd7;
+}
+
+h2 a:active {
+  color: #deb887;
+}
+
+h2 a:hover {
+  color: #6495ed;
+  text-decoration: underline;
+}
+
+header h1 a:active {
+  color: #deb887;
+}
+
+header h1 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* -----navigation----- */
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin-right: 2%;
+}
+
+nav li:nth-child(2),
+nav ul li:first-child {
+  padding-bottom: 15px;
+}
+
+section p a:active {
+  color: #deb887;
+}
+
+section p a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav ul li a:active {
+  color: #deb887;
+}
+
+hr {
+  width: 100%;
+}
+
+/* -------main------- */
+
+main {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #faebd7;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+.post-date {
+  font-size: small;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  width: 15rem;
+  margin: 5px;
+  padding: 40px;
+}
+
+article:nth-child(2) {
+  margin-top: 2rem;
+}
+
+figure img {
+  width: 100%;
+}
+
+/* -----large screen------- */
+
+@media only screen and (min-width: 35rem) {
+  /* ------64rem?----- */
+
+  body {
+    position: relative;
+    max-width: 54rem;
+    margin: auto;
+    border-left: 15rem solid #6495ed;
+  }
+
+  header {
+    top: 0;
+    left: -15rem;
+    width: 11rem;
+    position: absolute;
+    margin: auto;
+  }
+
+  main {
+    padding: 50px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .post-date {
+    font-size: medium;
+  }
+
+  article {
+    margin: auto;
+    padding: 4rem;
+    width: 80%;
+  }
+
+  article h2 {
+    font-size: 2.8rem;
+  }
+
+  figure img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section p {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+}
+
+/* -------end large------- */
+
+/* --# sourceMappingURL=main.css.map-- */

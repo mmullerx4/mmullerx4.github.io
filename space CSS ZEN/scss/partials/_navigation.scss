@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@400;600&family=Krub&display=swap");
+@import "layout.scss";
+
+$border: $color-4 2px solid;
+$border-radius: 30px 0 30px 0;
+
+$Bluehex: url("../assets/bluehex100.png");
+
+$primary-font: "Koho", sans-serif;
+$secondary-font: "Krub", sans-serif;
+
+a[href="/221/"] {
+  display: block;
+  content: $Bluehex;
+  grid-column: 1/2;
+  margin: 0 auto;
+}
+a[href="/220/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 2/3;
+}
+a[href="/219/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 3/4;
+}
+a[href="/218/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 4/5;
+}
+a[href="/217/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 1/2;
+}
+a[href="/216/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 2/3;
+}
+a[href="/215/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 3/4;
+}
+a[href="/214/"] {
+  display: block;
+  content: $Bluehex;
+  margin: 0 auto;
+  grid-column: 4/5;
+}
+a[href="/214/page1"]::before {
+  content: $Bluehex;
+}
+
+.design-archives a[href="http://www.mezzoblue.com/zengarden/alldesigns/"]::before
+{
+  content: $Bluehex;
+}
+.zen-resources a[href="style.css"]::before {
+  content: $Bluehex;
+}
+.zen-resources a[href="http://www.mezzoblue.com/zengarden/resources/"]::before
+{
+  content: $Bluehex;
+}
+.zen-resources a[href="http://www.mezzoblue.com/zengarden/faq/"]::before
+{
+  content: $Bluehex;
+}
+.zen-resources a[href="http://www.mezzoblue.com/zengarden/submit/"]::before
+{
+  content: $Bluehex;
+}
+.zen-resources a[href="http://www.mezzoblue.com/zengarden/translations/"]::before
+{
+  content: $Bluehex;
+}
+footer a[href="http://validator.w3.org/check/referer"]::before
+{
+  content: $Bluehex;
+  padding: 1em;
+}
+footer a[href="http://jigsaw.w3.org/css-validator/check/referer"]::before
+{
+  content: $Bluehex;
+  padding: 1em;
+}
+footer a[href="http://creativecommons.org/licenses/by-nc-sa/3.0/"]::before
+{
+  content: $Bluehex;
+  padding: 1em;
+}
+footer a[href="http://mezzoblue.com/zengarden/faq/#aaa"]::before
+{
+  content: $Bluehex;
+  padding: 1em;
+}
+footer a[href="https://github.com/mezzoblue/csszengarden.com"]::before
+{
+  content: $Bluehex;
+  padding: 1em;
+}

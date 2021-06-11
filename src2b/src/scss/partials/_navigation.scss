@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@400;600&family=Krub&display=swap");
+@import "layout.scss";
+
+$Rover: url("..//assets/navigation/marsrovericon100.png");
+$Moon: url("..//assets/navigation/moonicon100.jpg");
+$Planet: url("..//assets/navigation/planetdarkblue100.png");
+$SolarSystem: url("..//assets/navigation/SolarSystemicon100.png");
+$Shuttle: url("..//assets/navigation/SpaceShuttleicon100.png");
+$Sputnik: url("..//assets/navigation/sputnik100.png");
+$iconmesh: url("..//assets/navigation/iconmeshlinks.png");
+$Bluehex: url("..//assets/navigation/bluehex100.png");
+$secondarynav: url("..//assets/navigation/secondarynav.png");
+
+$primary-font: "Koho", sans-serif;
+$secondary-font: "Krub", sans-serif;
+
+
+
+.cd-primary-nav,
+.cd-secondary-nav {
+  ul li a::before {
+    content: $Bluehex;
+    display: block;
+    padding: 0.5em;
+  }
+}
+
+.cd-box {
+  background: transparent;
+  text-align: center;
+  h3 {
+    color: #f6a32d; // we can use the color variable here once it is set.
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  a {
+    font-family: $secondary-font;
+    font-size: 1em;
+    color: #33658a;
+  }
+  //Medium and large screen
+  @include MQ(M) {
+    text-align: left;
+    h3 {
+      color: #f6a32d; 
+      font-family: $primary-font;
+      font-weight: bold;
+      font-size: 2em;
+      padding: 0.5em;
+    }
+    ul li a::before {
+      content: none;
+    }
+
+    ul li a {
+      color: transparent;
+    }
+  }
+}
+
+@include MQ(M) {
+  .cd-primary-nav {
+    background-image: $iconmesh;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    height: 400px;
+  }
+  .cd-secondary-nav {
+    background-image: $secondarynav;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    height: 400px;
+  }
+}
+
+//Rebecca: please add this html to the #navigation <section> in the style-guide index.html. I had to separate it from the .cd-box <div> because I needed different styling for it.
+
+// <div class="footer-nav">
+// <h3> Footer nav</h3>
+// <ul>
+//   <li><a href="#">HTML</a></li>
+//   <li><a href="#">CSS</a></li>
+//   <li><a href="#">CC</a></li>
+//   <li><a href="#">A11y</a></li>
+//   <li><a href="#">GH</a></li>
+// </ul>
+// </div>
+
+.footer-nav {
+  background-color: white;
+  padding: 0.5em;
+
+  h3 {
+    color: #f6a32d; // we can use the color variable here once it is set.
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  ul li a{
+    font-family: $secondary-font;
+    font-size: 1em;
+    color: #33658a;
+    padding: 0.5em;
+  }
+  @include MQ(M) {
+    text-align: center;
+    h3 {
+      font-size: 2em;
+      padding: 0.5em;
+    }
+    ul li {
+      display: inline;
+      font-size: 1.5em;
+      color: #33658a;
+      padding: 0.5em;
+    }
+  }
+}
+
