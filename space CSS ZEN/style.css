@@ -386,5 +386,8 @@ footer {
     margin: 2em;
   } 
   */
-  
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   }
