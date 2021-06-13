@@ -366,4 +366,9 @@ footer {
     grid-column: 2/3;
     grid-row: 2/3;
   }
+
+  footer {
+    grid-column: 1/3;
+
+  }
   }
