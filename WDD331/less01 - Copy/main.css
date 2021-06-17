@@ -1,194 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+/*
+Use nesting with pseudo-classes like :hover or :active
+@media queries are another place to take advantage of nesting.
+Colors or widths are a good candidate for variables.
+Applying prefixes (i.e. -webkit, -moz) is a great use for mixins.
+*/
+/*variable assignment*/
 body {
-    margin: 0;
-    background-color: black;
+  margin: 0;
+  background-color: black;
 }
 
 /*-----header------*/
 header {
-    background-color: #6495ED;
-    color: #FAEBD7;
-    padding: 2rem;
-
+  background-color: #6495ED;
+  color: #FAEBD7;
+  padding: 2rem;
 }
 
 h1,
 h2 {
-    font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 
 header h1 {
-    text-align: right;
-    margin-right: 2%;
-    font-size: 23px;
-
+  text-align: right;
+  margin-right: 2%;
+  font-size: 23px;
 }
 
 header h1 a {
-    color: #FAEBD7;
+  color: #FAEBD7;
 }
 
 h1 a:active {
-    color: #DEB887;
+  color: #DEB887;
 }
 
 header h1 a:hover {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*-----navigation-----*/
 nav ul {
-    list-style-type: none;
-    text-align: right;
-    margin-right: 2%;
+  list-style-type: none;
+  text-align: right;
+  margin-right: 2%;
 }
 
 nav ul li a {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #FAEBD7;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #FAEBD7;
 }
 
 ul li:first-child,
 li:nth-child(2) {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 nav ul li a:hover {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 nav ul li a:active {
-    color: #deb887;
+  color: #deb887;
 }
 
 hr {
-    width: 100%;
+  width: 100%;
 }
 
 /*-------main-------*/
 main {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #FAEBD7;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FAEBD7;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
 }
 
 .post-date {
-    font-size: small;
+  font-size: small;
 }
 
 article {
-    border: 1px solid black;
-    border-radius: 2px;
-    background-color: white;
-    width: 15rem;
-    margin: 5px;
-    padding: 40px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  width: 15rem;
+  margin: 5px;
+  padding: 40px;
 }
 
 article:nth-child(2) {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 h2 a {
-    color: black;
+  color: black;
 }
 
 h2 a:active {
-    color: #DEB887;
+  color: #DEB887;
 }
 
 h2 a:hover {
-    color: #6495ED;
-    text-decoration: underline;
+  color: #6495ED;
+  text-decoration: underline;
 }
 
 section p a {
-    color: #6495ED;
+  color: #6495ED;
 }
 
 section p a:active {
-    color: #DEB887;
+  color: #DEB887;
 }
 
 section p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 figure img {
-    width: 100%;
+  width: 100%;
 }
 
 /*-----large screen-------*/
 @media only screen and (min-width: 35rem) {
-
-    /*------64rem?-----*/
-    body {
-        position: relative;
-        max-width: 54rem;
-        margin: auto;
-
-        border-left: 15rem solid #6495ED;
-    }
-
-    header {
-        top: 0;
-        left: -15rem;
-        width: 11rem;
-        position: absolute;
-        margin: auto;
-    }
-
-    main {
-
-        padding: 50px;
-    }
-
-    header h1 {
-        font-size: 2.2rem;
-    }
-
-    .post-date {
-        font-size: medium;
-    }
-
-    article {
-
-        margin: auto;
-        padding: 4rem;
-        width: 80%;
-    }
-
-    article h2 {
-        font-size: 2.8rem;
-    }
-
-    figure img {
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    section p {
-        font-size: 1.7rem;
-        font: bold;
-    }
-
-
-
+  /*------64rem?-----*/
+  body {
+    position: relative;
+    max-width: 54rem;
+    margin: auto;
+    border-left: 15rem solid #6495ED;
+  }
+  header {
+    top: 0;
+    left: -15rem;
+    width: 11rem;
+    position: absolute;
+    margin: auto;
+  }
+  main {
+    padding: 50px;
+  }
+  header h1 {
+    font-size: 2.2rem;
+  }
+  .post-date {
+    font-size: medium;
+  }
+  article {
+    margin: auto;
+    padding: 4rem;
+    width: 80%;
+  }
+  article h2 {
+    font-size: 2.8rem;
+  }
+  figure img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section p {
+    font-size: 1.7rem;
+    font: bold;
+  }
 }
 
 /*-------end large-------*/
+/*# sourceMappingURL=main.css.map */

@@ -1031,14 +1031,4 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
-.site-banner_left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #eaeaea;
-}
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,12 @@
 @import 'typography';
 @import 'icons';
-
 $sm-break: 48em;
+
+//typography
+$sans-serif: 'BYUI Open Sans';
+$light: 300;
+$normal: 400;
+
 // colors
 $dark-gray: #727272;
 $med-gray: #b4b3b5;
@@ -30,4 +35,9 @@ img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+.site-banner_left {
+  display: flex;
+  justify-content: space-between;
+  color: $light-gray;
 }
