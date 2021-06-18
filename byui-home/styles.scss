@@ -33,16 +33,17 @@ img {
 }
 /*end of starter code*/
 .site-banner {
+  background-color: $link-blue;
+  padding: 1.5em;
+  margin: -.5rem -.5rem 0;
   
-  background-color: $byui-blue;
-  padding: 1em;
-  margin: 0;
 }
 .icon-byui-logo {
   color: white;
   background-color: black;
-  padding: 1.35em;
+  padding: .5em;
   float: left; 
+  font-size: 2em;
 }
 .site-banner__left {
   float: left;
@@ -50,9 +51,38 @@ img {
 .site-banner__right {
   float: right;
 }
-
-
-
+.subheader {
+  background-color: $light-gray;
+  font-family: 'BYUI Open Sans';
+  font-style: normal;
+  font-size: .5em;
+  padding: 1em;
+  margin: 0 -.5rem;
+  
+}
+.common-button-icon {
+  color: whitesmoke;
+}
+.text-white {
+  color: white;
+}
+.mobile-header-icon {
+  font-size: 3em;
+  text-decoration: none;
+}
+.covid {
+  background: $body-font;
+  color: whitesmoke;
+  margin: 2em .5em;
+  text-align: center;
+  padding: .5rem 0 1rem;
+}
+.button {
+  background-color: $byui-blue;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
 
 
 .clearfix::after {
