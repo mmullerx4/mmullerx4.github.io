@@ -1031,4 +1031,32 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/*end of starter code*/
+.site-banner {
+  border: 5px solid black;
+  background-color: #056cb6;
+  padding: 1em;
+  margin: 0;
+}
+
+.icon-byui-logo {
+  color: white;
+  background-color: black;
+  padding: 1em;
+}
+
+.site-banner__left {
+  float: left;
+}
+
+.site-banner__right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*# sourceMappingURL=styles.css.map */
