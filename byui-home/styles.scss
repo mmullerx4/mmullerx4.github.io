@@ -33,7 +33,7 @@ img {
 }
 /*end of starter code*/
 .site-banner {
-  border: 5px solid black;
+  
   background-color: $byui-blue;
   padding: 1em;
   margin: 0;
@@ -41,8 +41,8 @@ img {
 .icon-byui-logo {
   color: white;
   background-color: black;
-  padding: 1em;
-  
+  padding: 1.35em;
+  float: left; 
 }
 .site-banner__left {
   float: left;
