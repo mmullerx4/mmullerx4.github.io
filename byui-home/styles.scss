@@ -34,7 +34,6 @@ img {
 /*end of starter code*/
 .site-banner {
   background-color: $link-blue;
-  padding: 1.5em;
   margin: -.5rem -.5rem 0;
   
 }
@@ -44,6 +43,8 @@ img {
   padding: .5em;
   float: left; 
   font-size: 2em;
+  position: absolute;
+  left: 0;
 }
 .site-banner__left {
   float: left;
@@ -68,7 +69,7 @@ img {
 }
 .mobile-header-icon {
   font-size: 3em;
-  text-decoration: none;
+  border: none;
 }
 .covid {
   background: $body-font;
@@ -89,4 +90,7 @@ img {
   content: "";
   clear: both;
   display: table;
+}
+.spacing {
+  margin-top: 1em;
 }
