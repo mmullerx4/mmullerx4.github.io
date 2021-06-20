@@ -34,8 +34,6 @@ img {
 /*end of starter code*/
 .site-banner {
   background-color: $link-blue;
-  margin: -.5rem -.5rem 0;
-  
 }
 .icon-byui-logo {
   color: white;
@@ -43,8 +41,6 @@ img {
   padding: .5em;
   float: left; 
   font-size: 2em;
-  position: absolute;
-  left: 0;
 }
 .site-banner__left {
   float: left;
@@ -67,6 +63,7 @@ img {
 .text-white {
   color: white;
 }
+
 .mobile-header-icon {
   font-size: 3em;
   border: none;
